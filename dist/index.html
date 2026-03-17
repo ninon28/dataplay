@@ -53,9 +53,9 @@
 
       <option value="" disabled selected>Choisir un genre dominant</option>
         <option class="select__item" value="action">Action</option>
-         <option class="select__item" value="drame">Drame</option>
-          <option class="select__item" value="comedie">Comédie</option>
-            <option class="select__item" value="thriller">Thriller</option>
+        <option class="select__item" value="drame">Drame</option>
+        <option class="select__item" value="comedie">Comédie</option>
+        <option class="select__item" value="thriller">Thriller</option>
           </select> 
           <button class="main__reset">Réinitialiser</button>
      </div>
@@ -64,37 +64,38 @@
 
  <section class="content">
   
-    <div class="content__years content__years--left">
-      <div class="years__list">
-        <div class="years__item">2001</div>
-        <div class="years__item">2002</div>
-        <div class="years__item">2003</div>
-        <div class="years__item">2004</div>
+    <div class="result-block result-block--left">
+      <div class="result-block__list">
+        <div class="result-block__item">2001</div>
+        <div class="result-block__item">2002</div>
+        <div class="result-block__item">2003</div>
+        <div class="result-block__item">2004</div>
       </div>
 
-      <div class="years__text">
-        <h3 class="years__text--content">Les années où le plus de films du genre dominant sont sortis.</h3>
+      <div class="result-block__text">
+        <h3 class="result-block__title">Les années où le plus de films du genre dominant sont sortis.</h3>
       </div>
   </div>
  
-    <div class="acteur__content acteur__content--right">
+    <div class="result-block--right">
 
-     <div class="acteur__text">
-       <h3 class="acteur__text--content">Les acteurs qui ont le plus joués dans le genre dominant.</h3>
+     <div class="result-block__text">
+       <h3 class="result-block__title">Les acteurs qui ont le plus joués dans le genre dominant.</h3>
      </div>
 
-     <div class="acteur__content acteur__content--right">
-        <div>
+     <div class="result-block__list">
+        <div class="result-block__item">
           <img src="assets/images/millie-bobby-brown.svg" alt="millie-bobby-brown"></div>
 
-        <div>
-          <img src="assets/images/acteur.svg" alt="acteur"> </div>
+        <div class="result-block__item">
+          <img src="assets/images/acteur.svg" alt="acteur"></div>
 
-        <div>
+        <div class="result-block__item">
           <img src="assets/images/actrice.svg" alt="actrice"></div>
 
-        <div>
-          <img src="assets/images/avteur-2.svg" alt="acteur"> </div>
+        <div class="result-block__item">
+          <img src="assets/images/avteur-2.svg" alt="acteur 2"></div>
+    </div>
     </div>
   
 </section>
@@ -103,7 +104,7 @@
 
 <section id="section-acteur">
   <section class="main__filters">
-    <div>
+    <div class="select__element">
       <label>Chercher un acteur ...</label>
       <input type="text" id="search-actor">
       <button class="main__reset">Réinitialiser</button>
@@ -111,24 +112,30 @@
   </section>
 
  <section class="content">
-  <div class="content__years content__years--left">
-    <div class="years__list">
-      <div class="years__item">2005</div>
-      <div class="years__item">2006</div>
+  <div class="result-block result-block--left">
+    <div class="result-block__list">
+      <div class="result-block__item">2005</div>
+      <div class="result-block__item">2006</div>
+      <div class="result-block__item">2007</div>
+      <div class="result-block__item">2008</div>
     </div>
-    <div class="years__text">
-      <h3 class="years__text--content">Les années où le plus de films de l'acteur choisis sont sortis.</h3>
+    <div class="result-block__text">
+      <h3 class="result-block__title">Les années où le plus de films de l'acteur choisis sont sortis.</h3>
     </div>
   </div>
 
-  
-
-
-
-
-
+  <div class="result-block result-block--right">
+    <div class="result-block__text">
+      <h3 class="result-block__title"></h3>
+    </div>
+    <div class="result-block__list">
+      <div class="result-block__item">Action</div>
+      <div class="result-block__item">Thriller</div>
+      <div class="result-block__item">Apocalypse</div>
+      <div class="result-block__item">Historique</div>
+    </div>
+  </div>
  </section>
-
 
 </section>
 
