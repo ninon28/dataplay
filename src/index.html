@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DWMA project</title>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="description" content="">
-  <!-- Meta Partage -->
-  <!-- Favicon -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet DataPlay</title>
+    
+    <meta name="description" content="Projet pour visualiser les liens entre les tops 10 du nombres de votes par live action chaque année depuis 2000.">
+    <meta property="og:site_name" content="Visualisation des liens entre les films">
+    <meta property="og:title" content="DataPlay">
+    <meta property="og:description" content="DataPlay">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anhelinamoroziuk.be/projets/dataplay">
+    <meta property="og:image" content="images/share-image.jpg"> 
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
   <link rel="stylesheet" href="styles/app.css">
   <script src="scripts/app.js" defer></script>
@@ -42,19 +47,15 @@
 <main class="main">
 
   <section class="main__filters">
-
     <div class="select__element">
-
       <select class="select__list">
 
       <option value="" disabled selected>Choisir un genre dominant</option>
-
         <option class="select__item" value="action">Action</option>
          <option class="select__item" value="drame">Drame</option>
           <option class="select__item" value="comedie">Comédie</option>
             <option class="select__item" value="thriller">Thriller</option>
           </select> 
-
      </div>
 
      <button class="main__reset">Réinitialiser</button>
@@ -62,19 +63,75 @@
      </section>
  
 
- <section>
+ <section class="content">
   
+    <div class="content__years content__years--left">
+      <div class="years__list">
+        <div class="years__item">2001</div>
+        <div class="years__item">2002</div>
+        <div class="years__item">2003</div>
+        <div class="years__item">2004</div>
+      </div>
+
+      <div class="years__text">
+        <h3 class="years__text--content">Les années où le plus de films du genre dominant sont sortis.</h3>
+      </div>
+
+  </div>
  </section>
 
 
 
 
+<section class="acteur">
+ 
+    <div class="acteur__content acteur__content--right">
+
+        <div>
+          <img src="assets/images/millie-bobby-brown.svg" alt="millie-bobby-brown">
+        </div>
+
+        <div>
+          <img src="assets/images/acteur.svg" alt="acteur">
+        </div>
+
+        <div>
+          <img src="assets/images/actrice.svg" alt="actrice">
+        </div>
+
+        <div>
+          <img src="assets/images/avteur-2.svg" alt="acteur">
+        </div>
+
+    </div>
+  
+
+  <div class="acteur__text">
+    <h3 class="acteur__text--content">Les acteurs qui ont le plus joués dans le genre dominant.</h3>
+  </div>
+
+</section>
 
 
 
 
 
-</main>
+
+<label>Chercher un acteur ...</label>
+<input type="text">
+<button class="main__reset">Réinitialiser</button>
+
+
+
+
+<section> class="logo">
+    <div class="logo-container">
+      <img src="assets/images/REMATCH.svg" alt="REMATCH" class="logo-container--towards">
+      <img src="assets/images/REWATCH.svg" alt="REWATCH" class="logo-container--towards">
+    </div>
+</section>
+
+
  
 
 
@@ -98,3 +155,11 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
