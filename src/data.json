@@ -1,5 +1,1033 @@
 [
     {
+        "film": "Le prestige",
+        "date": 2006,
+        "genre": [
+            "Thriller",
+            "Fantastique",
+            "Science-fiction"
+        ],
+        "acteur": [
+            "Hugh Jackman",
+            "Christian Bale",
+            "Michael Caine",
+            "Scarlett Johansson",
+            "David Bowie"
+        ]
+    },
+    {
+        "film": "Les infiltrés",
+        "date": 2006,
+        "genre": [
+            "Policier",
+            "Thriller",
+            "Drame"
+        ],
+        "acteur": [
+            "Leonardo DiCaprio",
+            "Matt Damon",
+            "Jack Nicholson",
+            "Mark Wahlberg"
+        ]
+    },
+    {
+        "film": "300",
+        "date": 2006,
+        "genre": [
+            "Péplum",
+            "Action",
+            "Guerre"
+        ],
+        "acteur": [
+            "Gerard Bulter",
+            "Rodrigo Santoro",
+            "Dominic West",
+            "Lena Headey",
+            "David Wenham",
+            "Michael Fassbender"
+        ]
+    },
+    {
+        "film": "Pirates des Caraïbes : Le Secret du coffre maudit",
+        "date": 2006,
+        "genre": [
+            "Aventure",
+            "Fantastique"
+        ],
+        "acteur": [
+            "Johnny Depp",
+            "Orlando Bloom",
+            "Keira Knightley",
+            "Bill Nighy",
+            "Kevin McNally",
+            "Tom Hollander"
+        ]
+    },
+    {
+        "film": "Le Labyrinthe de Pan",
+        "date": 2006,
+        "genre": [
+            "Dark fantasy",
+            "Drame",
+            "Horreur",
+            "Historique",
+            "Aventure"
+        ],
+        "acteur": [
+            "Ivana Baquero",
+            "Doug Jones",
+            "Sergi López",
+            "Ariadna Gil",
+            "Maribel Verdú"
+        ]
+    },
+    {
+        "film": "Casino Royale",
+        "date": 2006,
+        "genre": [
+            "Espionnage"
+        ],
+        "acteur": [
+            "Daniel Craig",
+            "Eva Green",
+            "Mads Mikkelsen",
+            "Judi Dench",
+            "Jeffrey Wright"
+        ]
+    },
+    {
+        "film": "Blood Diamond",
+        "date": 2006,
+        "genre": [
+            "Thriller",
+            "Drame"
+        ],
+        "acteur": [
+            "Leonardo DiCaprio",
+            "Jennifer Connelly",
+            "Djimon Hounsou",
+            "Michael Sheen",
+            "Arnold Vosloo"
+        ]
+    },
+    {
+        "film": "À la recherche du bonheur",
+        "date": 2006,
+        "genre": [
+            "Comédie",
+            "Drame",
+            "Biopic"
+        ],
+        "acteur": [
+            "Will Smith",
+            "Jaden Smith",
+            "Thandie Newton",
+            "Brian Howe"
+        ]
+    },
+    {
+        "film": "X-men: l’affrontement final",
+        "date": 2006,
+        "genre": [
+            "Super-héros"
+        ],
+        "acteur": [
+            "Hugh Jackman",
+            "Halle Berry",
+            "Ian McKellen",
+            "Famke Janssen",
+            "Anna Paquin"
+        ]
+    },
+    {
+        "film": "Les fils de l'homme",
+        "date": 2006,
+        "genre": [
+            "Drame",
+            "Thriller",
+            "Science-fiction"
+        ],
+        "acteur": [
+            "Clive Owen",
+            "Julianne Moore",
+            "Michael Caine",
+            "Clare-Hope Ashitey",
+            "Chiwetel Ejiofor"
+        ]
+    },
+
+
+
+    {
+        "film": "No country for old men",
+        "date": 2007,
+        "genre": [
+            "Drame",
+            "Thriller",
+            "Néo-western",
+            "Néo-noir"
+        ],
+        "acteur": [
+            "Tommy Lee Jones",
+            "Javier Bardem",
+            "Josh Brolin",
+            "Woody Harrelson"
+        ]
+    },
+    {
+        "film": "Je suis une légende",
+        "date": 2007,
+        "genre": [
+            "Science-fiction",
+            "Action",
+            "Drame",
+            "Thriller"
+        ],
+        "acteur": [
+            "Will Smith",
+            "Salli Richardson-Whitfield",
+            "Alice Braga",
+            "Willow Smith"
+        ]
+    },
+    {
+        "film": "Pirates des Caraïbes : Jusqu'au bout du monde",
+        "date": 2007,
+        "genre": [
+            "Aventure",
+            "Fantastique"
+        ],
+        "acteur": [
+            "Johnny Depp",
+            "Orlando Bloom",
+            "Keira Knightley",
+            "Geoffrey Rush"
+        ]
+    },
+    {
+        "film": "Transformers",
+        "date": 2007,
+        "genre": [
+            "Science-fiction",
+            "Action"
+        ],
+        "acteur": [
+            "Shia LaBeouf",
+            "Megan Fox",
+            "Jon Voight",
+            "John Turturro"
+        ]
+    },
+    {
+        "film": "There will be blood",
+        "date": 2007,
+        "genre": [
+            "Drame",
+            "Historique"
+        ],
+        "acteur": [
+            "Daniel Day-Lewis",
+            "Paul Dano",
+            "Ciarán Hinds"
+        ]
+    },
+    {
+        "film": "Harry Potter et l'Ordre du Phénix",
+        "date": 2007,
+        "genre": [
+            "Fantasy"
+        ],
+        "acteur": [
+            "Daniel Radcliffe",
+            "Rupert Grint",
+            "Emma Watson",
+            "Michael Gambon",
+            "Imelda Staunton"
+        ]
+    },
+    {
+        "film": "Spider-Man 3",
+        "date": 2007,
+        "genre": [
+            "Fantastique",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Tobey Maguire",
+            "Thomas Haden Church",
+            "Kirsten Dunst",
+            "James Franco",
+            "Topher Grace",
+            "Bryce Dallas Howard"
+        ]
+    },
+    {
+        "film": "Into the wild",
+        "date": 2007,
+        "genre": [
+            "Biopic",
+            "Aventure"
+        ],
+        "acteur": [
+            "Emile Hirsch",
+            "Kristen Stewart",
+            "Marcia Gay Harden",
+            "William Hurt",
+            "Jena Malone"
+        ]
+    },
+    {
+        "film": "SuperGrave",
+        "date": 2007,
+        "genre": [
+            "Comédie"
+        ],
+        "acteur": [
+            "Jonah Hill",
+            "Michael Cera",
+            "Christopher Mintz-Plasse",
+            "Seth Rogen",
+            "Bill Hader"
+        ]
+    },
+    {
+        "film": "La Vengeance dans la peau",
+        "date": 2007,
+        "genre": [
+            "Espionnage"
+        ],
+        "acteur": [
+            "Matt Damon",
+            "Julia Stiles",
+            "Joan Allen",
+            "David Strathairn",
+            "Scott Glenn"
+        ]
+    },
+
+
+
+    {
+        "film": "The Dark Knight : Le Chevalier noir",
+        "date": 2008,
+        "genre": [
+            "Action",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Christian Bale",
+            "Michael Caine",
+            "Heath Ledger",
+            "Gary Oldman",
+            "Aaron Eckhart"
+        ]
+    },
+    {
+        "film": "Iron Man",
+        "date": 2008,
+        "genre": [
+            "Action",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Robert Downey Jr.",
+            "Gwyneth Paltrow",
+            "Terrence Howard",
+            "Jeff Bridges",
+            "Shaun Toub"
+        ]
+    },
+    {
+        "film": "Slumdog Millionaire",
+        "date": 2008,
+        "genre": [
+            "Drame"
+        ],
+        "acteur": [
+            "Dev Patel",
+            "Freida Pinto",
+            "Anil Kapoor",
+            "Irfan Khan",
+            "Ayush Mahesh Khedekar"
+        ]
+    },
+    {
+        "film": "Gran Torino",
+        "date": 2008,
+        "genre": [
+            "Drame"
+        ],
+        "acteur": [
+            "Clint Eastwood",
+            "Bee Vang",
+            "Ahney Her"
+        ]
+    },
+    {
+        "film": "L'Étrange Histoire de Benjamin Button",
+        "date": 2008,
+        "genre": [
+            "Fantastique"
+        ],
+        "acteur": [
+            "Brad Pitt",
+            "Cate Blanchett"
+        ]
+    },
+    {
+        "film": "Taken",
+        "date": 2008,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "acteur": [
+            "Liam Neeson",
+            "Maggie Grace",
+            "Famke Janssen"
+        ]
+    },
+    {
+        "film": "L'incroyable Hulk",
+        "date": 2008,
+        "genre": [
+            "Action",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Edward Norton",
+            "Liv Tyler",
+            "Tim Roth",
+            "William Hurt",
+            "Tim Blake Nelson"
+        ]
+    },
+    {
+        "film": "Hancock",
+        "date": 2008,
+        "genre": [
+            "Fantastique"
+        ],
+        "acteur": [
+            "Will Smith",
+            "Charlize Theron",
+            "Jason Bateman"
+        ]
+    },
+    {
+        "film": "Twilight, chapitre I : Fascination",
+        "date": 2008,
+        "genre": [
+            "Fantastique",
+            "Action",
+            "Romance"
+        ],
+        "acteur": [
+            "Kristen Stewart",
+            "Robert Pattinson"
+        ]
+    },
+    {
+        "film": "Indiana Jones et le Royaume du crâne de cristal",
+        "date": 2008,
+        "genre": [
+            "Aventure",
+            "Action",
+            "Science-fiction"
+        ],
+        "acteur": [
+            "Harrison Ford",
+            "Karen Allen",
+            "Cate Blanchett",
+            "John Hurt",
+            "Shia LaBeouf"
+        ]
+    },
+
+
+
+    {
+        "film": "Inglourious Basterds",
+        "date": 2009,
+        "genre": [
+            "Guerre"
+        ],
+        "acteur": [
+            "Brad Pitt",
+            "Christoph Waltz",
+            "Mélanie Laurent",
+            "Eli Roth",
+            "Diane Kruger"
+        ]
+    },
+    {
+        "film": "Very Bad Trip",
+        "date": 2009,
+        "genre": [
+            "Comédie"
+        ],
+        "acteur": [
+            "Bradley Cooper",
+            "Ed Helms",
+            "Zach Galifianakis",
+            "Heather Graham",
+            "Justin Bartha"
+        ]
+    },
+    {
+        "film": "District 9",
+        "date": 2009,
+        "genre": [
+            "Science-fiction",
+            "Action"
+        ],
+        "acteur": [
+            "Sharlto Copley",
+            "Jason Cope",
+            "Nathalie Boltt",
+            "Sylvaine Strike",
+            "John Sumner"
+        ]
+    },
+    {
+        "film": "Sherlock Holmes",
+        "date": 2009,
+        "genre": [
+            "Action",
+            "Aventure"
+        ],
+        "acteur": [
+            "Robert Downey Jr.",
+            "Jude Law",
+            "Rachel McAdams",
+            "Mark Strong",
+            "Kelly Reilly"
+        ]
+    },
+    {
+        "film": "Bienvenue à Zombieland",
+        "date": 2009,
+        "genre": [
+            "Comédie",
+            "Horreur"
+        ],
+        "acteur": [
+            "Woody Harrelson",
+            "Jesse Eisenberg",
+            "Emma Stone",
+            "Abigail Breslin"
+        ]
+    },
+    {
+        "film": "Harry Potter et le Prince de sang-mêlé",
+        "date": 2009,
+        "genre": [
+            "Fantasy"
+        ],
+        "acteur": [
+            "Daniel Radcliffe",
+            "Rupert Grint",
+            "Emma Watson",
+            "Michael Gambon",
+            "Jim Broadbent",
+            "Alan Rickman"
+        ]
+    },
+    {
+        "film": "Star Trek",
+        "date": 2009,
+        "genre": [
+            "Science-fiction"
+        ],
+        "acteur": [
+            "Chris Pine",
+            "Zachary Quinto",
+            "Karl Urban",
+            "Simon Pegg",
+            "Zoe Saldaña",
+            "Leonard Nimoy"
+        ]
+    },
+    {
+        "film": "500 jours ensemble",
+        "date": 2009,
+        "genre": [
+            "Comédie",
+            "Romance"
+        ],
+        "acteur": [
+            "Joseph Gordon-Levitt",
+            "Zooney Deschanel"
+        ]
+    },
+    {
+        "film": "Watchmen : Les Gardiens",
+        "date": 2009,
+        "genre": [
+            "Science-fiction",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Jackie Earle Haley",
+            "Patrick Wilson",
+            "Billy Crudup",
+            "Malin Åkerman",
+            "Matthew Goode",
+            "Jeffrey Dean Morgan"
+        ]
+    },
+    {
+        "film": "X-Men Origins: Wolverine",
+        "date": 2009,
+        "genre": [
+            "Super-héros"
+        ],
+        "acteur": [
+            "Hugh Jackman",
+            "Liev Schreiber",
+            "Danny Huston",
+            "Ryan Reynolds",
+            "Will.i.am"
+        ]
+    },
+
+
+
+    {
+        "film": "Inception",
+        "date": 2010,
+        "genre": [
+            "Thriller",
+            "Science-fiction"
+        ],
+        "acteur": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Ellen Page",
+            "Tom Hardy",
+            "Ken Watanabe",
+            "Marion Cotillard"
+        ]
+    },
+    {
+        "film": "Shutter Island",
+        "date": 2010,
+        "genre": [
+            "Thriller",
+            "Psychologique",
+            "Drame",
+            "Néo-noir"
+        ],
+        "acteur": [
+            "Leonardo DiCaprio",
+            "Mark Ruffalo",
+            "Ben Kingsley"
+        ]
+    },
+    {
+        "film": "Iron Man 2",
+        "date": 2010,
+        "genre": [
+            "Action",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Robert Downey Jr.",
+            "Gwyneth Paltrow",
+            "Don Cheadle",
+            "Mickey Rourke",
+            "Samuel L.Jackson"
+        ]
+    },
+    {
+        "film": "Black Swan",
+        "date": 2010,
+        "genre": [
+            "Thriller"
+        ],
+        "acteur": [
+            "Natalie Portman",
+            "Vincent Cassel",
+            "Mila Kunis",
+            "Barbara Hershey",
+            "Winona Ryder"
+        ]
+    },
+    {
+        "film": "The social network",
+        "date": 2010,
+        "genre": [
+            "Drame",
+            "Biographie"
+        ],
+        "acteur": [
+            "Jesse Eisenberg",
+            "Andrew Garfield",
+            "Justin Timberlake"
+        ]
+    },
+    {
+        "film": "Le discours d’un roi",
+        "date": 2010,
+        "genre": [
+            "Drame",
+            "Historique",
+            "Biopic"
+        ],
+        "acteur": [
+            "Colin Firth",
+            "Geoffrey Rush",
+            "Helena Bonham Carter"
+        ]
+    },
+    {
+        "film": "Harry Potter et les reliques de la mort - 1ère partie",
+        "date": 2010,
+        "genre": [
+            "Fantasy"
+        ],
+        "acteur": [
+            "Daniel Radcliffe",
+            "Rupert Grint",
+            "Emma Watson",
+            "Ralph Fiennes",
+            "Alan Rickman"
+        ]
+    },
+    {
+        "film": "Kick-Ass",
+        "date": 2010,
+        "genre": [
+            "Action",
+            "Super-héros",
+            "Comédie"
+        ],
+        "acteur": [
+            "Aaron Johnson",
+            "Christopher Mintz-Plasse",
+            "Chloë Grace Moretz",
+            "Nicolas Cage",
+            "Mark Strong"
+        ]
+    },
+    {
+        "film": "Scott Pilgrim",
+        "date": 2010,
+        "genre": [
+            "Comédie",
+            "Action",
+            "Fantastique"
+        ],
+        "acteur": [
+            "Michael Cera",
+            "Mary Elizabeth Winstead"
+        ]
+    },
+    {
+        "film": "The Town",
+        "date": 2010,
+        "genre": [
+            "Thriller"
+        ],
+        "acteur": [
+            "Ben Affleck",
+            "Jeremy Renner",
+            "Rebecca Hall",
+            "Jon Hamm"
+        ]
+    },
+
+
+
+    {
+        "film": "Harry Potter et les reliques de la mort - 2ème partie",
+        "date": 2011,
+        "genre": [
+            "Fantasy"
+        ],
+        "acteur": [
+            "Daniel Radcliffe",
+            "Emma Watson",
+            "Rupert Grint",
+            "Ralph Fiennes",
+            "Alan Rickman"
+        ]
+    },
+    {
+        "film": "Intouchables",
+        "date": 2011,
+        "genre": [
+            "Biopic",
+            "Comédie",
+            "Drame"
+        ],
+        "acteur": [
+            "François Cluzet",
+            "Omar Sy"
+        ]
+    },
+    {
+        "film": "Captain America: First Avenger",
+        "date": 2011,
+        "genre": [
+            "Action",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Chris Evans",
+            "Hugo Weaving",
+            "Hayley Atwell",
+            "Stanley Tucci",
+            "Tommy Lee Jones"
+        ]
+    },
+    {
+        "film": "Thor",
+        "date": 2011,
+        "genre": [
+            "Science-fiction",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Chris Hemsworth",
+            "Natalie Portman",
+            "Tom Hiddleston",
+            "Anthony Hopkins",
+            "Stellan Skarsgård"
+        ]
+    },
+    {
+        "film": "X-Men : Le Commencement",
+        "date": 2011,
+        "genre": [
+            "Super-héros"
+        ],
+        "acteur": [
+            "James McAvoy",
+            "Michael Fassbender",
+            "Kevin Bacon",
+            "Jennifer Lawrence",
+            "January Jones"
+        ]
+    },
+    {
+        "film": "Drive",
+        "date": 2011,
+        "genre": [
+            "Thriller",
+            "Néo-noir"
+        ],
+        "acteur": [
+            "Ryan Gosling",
+            "Carey Mulligan",
+            "Bryan Cranston",
+            "Ron Perlman",
+            "Albert Brooks"
+        ]
+    },
+    {
+        "film": "Limitless",
+        "date": 2011,
+        "genre": [
+            "Thriller"
+        ],
+        "acteur": [
+            "Bradley Cooper",
+            "Abbie Cornish",
+            "Robert De Niro"
+        ]
+    },
+    {
+        "film": "Crazy, stupid, love",
+        "date": 2011,
+        "genre": [
+            "Comédie",
+            "Romance"
+        ],
+        "acteur": [
+            "Steve Carell",
+            "Ryan Gosling",
+            "Julianne Moore",
+            "Emma Stone"
+        ]
+    },
+    {
+        "film": "Pirates des Caraïbes: La Fontaine de Jouvence",
+        "date": 2011,
+        "genre": [
+            "Aventure",
+            "Fantastique"
+        ],
+        "acteur": [
+            "Johnny Depp",
+            "Penélope Cruz",
+            "Geoffrey Rush",
+            "Ian McShane"
+        ]
+    },
+    {
+        "film": "La Planète des singes : Les Origines",
+        "date": 2011,
+        "genre": [
+            "Science-fiction"
+        ],
+        "acteur": [
+            "Andy Serkis",
+            "Freida Pinto",
+            "James Franco",
+            "John Lithgow",
+            "Tom Felton"
+        ]
+    },
+
+
+
+    {
+        "film": "The Dark Knight Rises",
+        "date": 2012,
+        "genre": [
+            "Action",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Christian Bale",
+            "Michael Caine",
+            "Gary Oldman",
+            "Anne Hathaway",
+            "Tom Hardy"
+        ]
+    },
+    {
+        "film": "Django Unchained",
+        "date": 2012,
+        "genre": [
+            "Néo-western"
+        ],
+        "acteur": [
+            "Jamie Foxx",
+            "Christoph Waltz",
+            "Leonardo DiCaprio",
+            "Samuel L.Jackson",
+            "Kerry Washington"
+        ]
+    },
+    {
+        "film": "Avengers",
+        "date": 2012,
+        "genre": [
+            "Science-fiction",
+            "Super-héros"
+        ],
+        "acteur": [
+            "Chris Evans",
+            "Robert Downey Jr.",
+            "Mark Ruffalo",
+            "Chris Hemsworth",
+            "Scarlett Johansson",
+            "Jeremy Renner",
+            "Samuel L.Jackson"
+        ]
+    },
+    {
+        "film": "Le Hobbit: un voyage inattendu",
+        "date": 2012,
+        "genre": [
+            "Fantasy"
+        ],
+        "acteur": [
+            "Martin Freeman",
+            "Ian McKellen",
+            "Richard Armitage",
+            "Andy Serkis",
+            "Manu Bennett"
+        ]
+    },
+    {
+        "film": "Happiness Therapy",
+        "date": 2012,
+        "genre": [
+            "Comédie",
+            "Drame",
+            "Romance"
+        ],
+        "acteur": [
+            "Bradley Cooper",
+            "Jennifer Lawrence",
+            "Robert De Niro",
+            "Anupam Kher",
+            "Chris Tucker"
+        ]
+    },
+    {
+        "film": "Skyfall",
+        "date": 2012,
+        "genre": [
+            "Espionnage"
+        ],
+        "acteur": [
+            "Daniel Craig",
+            "Judi Dench",
+            "Javier Bardem",
+            "Ralph Fiennes",
+            "Bérénice Marlohe"
+        ]
+    },
+    {
+        "film": "The Amazing Spider-Man",
+        "date": 2012,
+        "genre": [
+            "Super-héros"
+        ],
+        "acteur": [
+            "Andrew Garfield",
+            "Emma Stone",
+            "Rhys Ifans",
+            "Denis Leary",
+            "Martin Sheen"
+        ]
+    },
+    {
+        "film": "Ted",
+        "date": 2012,
+        "genre": [
+            "Comédie",
+            "Fantastique"
+        ],
+        "acteur": [
+            "Mark Wahlberg",
+            "Mila Kunis",
+            "Seth MacFarlane"
+        ]
+    },
+    {
+        "film": "L’Odyssée de Pi",
+        "date": 2012,
+        "genre": [
+            "Aventure"
+        ],
+        "acteur": [
+            "Suraj Sharma",
+            "Irrfan Khan",
+            "Tabu",
+            "Gérard Depardieu"
+        ]
+    },
+    {
+        "film": "Prometheus",
+        "date": 2012,
+        "genre": [
+            "Science-fiction"
+        ],
+        "acteur": [
+            "Idris Elba",
+            "Michael Fassbender",
+            "Guy Pearce",
+            "Noomi Rapace",
+            "Charlize Theron"
+        ]
+    },
+
+    {
         "film": "Le loup de Wall Street",
         "date": 2013,
         "genre": [
