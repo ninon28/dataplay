@@ -1,2 +1,16 @@
 @import 'utils/variables';
 @import 'components/type';
+
+.navigation__active {
+    color:red;
+}
+
+
+.block {
+    display:none;
+}
+.actor.block--show .block{
+    display: block;
+}
+
+

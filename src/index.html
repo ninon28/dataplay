@@ -16,8 +16,29 @@
 </head>
 <body>
 
-  <img src="assets/images/logo-heaj.png">
-  <h1>Hello world</h1>
+  <nav>
+
+    <a class="actor__btn">Acteur</a>
+    <a>Genre</a>
+    <a>Année</a>
+
+  </nav>
+
+  <section class="actor">
+    <a class="block">bouton</a>
+    <p class="block">mes infos</p>
+
+    <div class="actor__search block">
+
+      <label for="site-search">Chercher un acteur</label>
+      <input type="search" id="site-search" name="q" autocomplete="off" />
+
+      <ul id="suggestions" class="suggestions-list"></ul>
+
+      <button>Search</button> 
+
+    </div>
+  </section>
 
 </body>
 </html>
