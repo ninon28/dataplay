@@ -223,4 +223,39 @@ p {
   width: 70px;
 }
 
+.main__filters {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.main__filters .select__element {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.main__filters .search__input {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #DDDDDD;
+  border: 1px solid rgba(221, 221, 221, 0.3);
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  min-width: 320px;
+}
+.main__filters .search__input:focus {
+  outline: none;
+  border-color: rgba(221, 221, 221, 0.6);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.main__filters .main__reset {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(221, 221, 221, 0.3);
+  border-radius: 8px;
+  padding: 12px 35px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 /*# sourceMappingURL=app.css.map*/

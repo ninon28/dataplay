@@ -232,3 +232,45 @@
     }
   }
 }
+
+
+
+.main__filters {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+
+  .select__element {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .search__input {
+    background-color: rgba(255, 255, 255, 0.05); 
+    color: $color-text-main;
+    border: 1px solid rgba(221, 221, 221, 0.3);
+    border-radius: 8px; 
+    padding: 12px 20px;
+    font-size: 16px; 
+    min-width: 320px;
+
+    &:focus {
+      outline: none;
+      border-color: rgba(221, 221, 221, 0.6);
+      background-color: rgba(255, 255, 255, 0.08);
+    }
+  }
+
+  .main__reset {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(221, 221, 221, 0.3);
+    border-radius: 8px; 
+    padding: 12px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+  }
+}
