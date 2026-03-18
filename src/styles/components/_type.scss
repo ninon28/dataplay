@@ -1,4 +1,21 @@
+@import '../utils/variables';
+
 body {
     background-color: $main-bg;
+    color: $color-text-main; 
+    font-family: 'Inter', sans-serif;
+    font-size: $font-p;
+
 }
 
+h2 { 
+  font-size: $font-h2; 
+}
+
+h3 { 
+  font-size: $font-h3; 
+}
+
+p { 
+  font-size: $font-p; 
+}
