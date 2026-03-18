@@ -84,6 +84,7 @@ p {
     transition: all 0.3s ease;
     position: relative;
 
+    
     &:not(:last-child)::after {
       content: '';
       position: absolute;
@@ -97,6 +98,7 @@ p {
     &--active {
       font-weight: 700;
     }
+
   }
 }
 
@@ -170,19 +172,6 @@ p {
     gap: 20px;
   }
 
-  &__text {
-    text-align: center;
-    margin-top: 40px;
-    
-    .result-block__title {
-      font-size: $font-p;
-      font-weight: 400;
-      line-height: 1.4;
-      max-width: 400px;
-      margin: 0 auto;
-    }
-  }
-
   &__item {
     width: fit-content;
     background-color: $color-result-bg;
@@ -193,22 +182,27 @@ p {
     font-weight: 900;
   }
 
+  &__title {
+    font-size: $font-p;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   &--left {
     flex: 4;
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     padding-right: 60px;
-
-    .result-block__list {
-      align-items: flex-end;
     }
 
-    &--opposite{
-    flex: 4;
+  &--opposite{
     border-left: 1px solid rgba(255, 255, 255, 0.2) ;
-    padding-right: 60px;
-
-}
+    padding-left: 60px; 
+    margin-left: -20px;
   }
+
 
   &--right {
     flex: 6;
@@ -230,7 +224,7 @@ p {
           
           &:hover { 
             transform: scale(1.1); 
-        }
+         }
         }
 
         &:nth-child(1) { 
@@ -256,8 +250,7 @@ p {
       }
     }
   }
-}
-
+ }
 
 
 .main__filters {
@@ -301,6 +294,31 @@ p {
 
 }
 
+.footer{
+  background-color: #222222;
+  text-align: center;
 
+  &__logo-container{
+  width: 100%;
+  max-width: 1400px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+ }
 
+  &__link{
+  display: inline-block;
+  color:#DDDDDD;
+  text-decoration: none;
+ }
 
+ &:hover {
+      text-decoration: underline;
+    }
+  
+   p {
+    color: #ffffff;
+    margin: 10px 0;
+  }
+}
