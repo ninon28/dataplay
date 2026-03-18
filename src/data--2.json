@@ -1,4 +1,5 @@
-[    {
+[    
+    {
         "film": "Le loup de Wall Street",
         "date": 2013,
         "genre": [
@@ -1011,5 +1012,353 @@
             "Oscar Isaac",
             "Ian McDiarmid"
         ]
+    }
+    {
+        "film": "Tenet",
+        "date": 2020,
+        "genre": ["Science-fiction", "Action", "Thriller"],
+        "acteur": ["John David Washington", "Robert Pattinson", "Elizabeth Debicki"]
+    },
+    {
+        "film": "Sans un bruit 2",
+        "date": 2020,
+        "genre": ["Thriller", "Horreur"],
+        "acteur": ["Emily Blunt", "Cillian Murphy", "Millicent Simmonds"]
+    },
+    {
+        "film": "Wonder Woman 1984",
+        "date": 2020,
+        "genre": ["Super-heros", "Action"],
+        "acteur": ["Gal Gadot", "Chris Pine", "Pedro Pascal"]
+    },
+    {
+        "film": "Tyler Rake",
+        "date": 2020,
+        "genre": ["Action"],
+        "acteur": ["Chris Hemsworth", "David Harbour"]
+    },
+    {
+        "film": "Invisible Man",
+        "date": 2020,
+        "genre": ["Thriller", "Horreur"],
+        "acteur": ["Elisabeth Moss", "Oliver Jackson-Cohen"]
+    },
+    {
+        "film": "Birds of Prey",
+        "date": 2020,
+        "genre": ["Super-heros", "Action"],
+        "acteur": ["Margot Robbie", "Mary Elizabeth Winstead", "Jurnee Smollett-Bell"]
+    },
+    {
+        "film": "Promising Young Woman",
+        "date": 2020,
+        "genre": ["Thriller", "Drame"],
+        "acteur": ["Carey Mulligan", "Bo Burnham"]
+    },
+    {
+        "film": "Enola Holmes",
+        "date": 2020,
+        "genre": ["Aventure", "Policier"],
+        "acteur": ["Millie Bobby Brown", "Henry Cavill", "Sam Claflin"]
+    },
+    {
+        "film": "The Father",
+        "date": 2020,
+        "genre": ["Drame"],
+        "acteur": ["Anthony Hopkins", "Olivia Colman"]
+    },
+    {
+        "film": "Drunk",
+        "date": 2020,
+        "genre": ["Comedie", "Drame"],
+        "acteur": ["Mads Mikkelsen", "Thomas Bo Larsen"]
+    },
+    {
+        "film": "Dune: Premiere Partie",
+        "date": 2021,
+        "genre": ["Science-fiction", "Aventure"],
+        "acteur": ["Timothee Chalamet", "Rebecca Ferguson", "Zendaya"]
+    },
+    {
+        "film": "Spider-Man: No Way Home",
+        "date": 2021,
+        "genre": ["Action", "Super-heros", "Fantastique"],
+        "acteur": ["Tom Holland", "Zendaya", "Benedict Cumberbatch"]
+    },
+    {
+        "film": "Don't Look Up",
+        "date": 2021,
+        "genre": ["Comedie", "Science-fiction"],
+        "acteur": ["Leonardo DiCaprio", "Jennifer Lawrence", "Meryl Streep"]
+    },
+    {
+        "film": "Shang-Chi",
+        "date": 2021,
+        "genre": ["Action", "Super-heros", "Fantastique"],
+        "acteur": ["Simu Liu", "Awkwafina", "Tony Leung"]
+    },
+    {
+        "film": "Mourir peut attendre",
+        "date": 2021,
+        "genre": ["Espionnage", "Action"],
+        "acteur": ["Daniel Craig", "Lea Seydoux", "Rami Malek"]
+    },
+    {
+        "film": "Free Guy",
+        "date": 2021,
+        "genre": ["Comedie", "Action", "Science-fiction"],
+        "acteur": ["Ryan Reynolds", "Jodie Comer", "Joe Keery"]
+    },
+    {
+        "film": "Black Widow",
+        "date": 2021,
+        "genre": ["Action", "Super-heros"],
+        "acteur": ["Scarlett Johansson", "Florence Pugh", "David Harbour"]
+    },
+    {
+        "film": "Zack Snyder's Justice League",
+        "date": 2021,
+        "genre": ["Super-heros", "Action"],
+        "acteur": ["Ben Affleck", "Henry Cavill", "Gal Gadot"]
+    },
+    {
+        "film": "The Suicide Squad",
+        "date": 2021,
+        "genre": ["Action", "Super-heros", "Comedie"],
+        "acteur": ["Margot Robbie", "Idris Elba", "John Cena"]
+    },
+    {
+        "film": "Les Eternels",
+        "date": 2021,
+        "genre": ["Super-heros", "Science-fiction"],
+        "acteur": ["Gemma Chan", "Richard Madden", "Angelina Jolie"]
+    },
+    {
+        "film": "The Batman",
+        "date": 2022,
+        "genre": ["Policier", "Action", "Drame"],
+        "acteur": ["Robert Pattinson", "Zoe Kravitz", "Colin Farrell"]
+    },
+    {
+        "film": "Top Gun: Maverick",
+        "date": 2022,
+        "genre": ["Action", "Drame"],
+        "acteur": ["Tom Cruise", "Miles Teller", "Jennifer Connelly"]
+    },
+    {
+        "film": "Avatar: La Voie de l'eau",
+        "date": 2022,
+        "genre": ["Science-fiction", "Aventure", "Action"],
+        "acteur": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"]
+    },
+    {
+        "film": "Elvis",
+        "date": 2022,
+        "genre": ["Biographie", "Drame"],
+        "acteur": ["Austin Butler", "Tom Hanks"]
+    },
+    {
+        "film": "Everything Everywhere All at Once",
+        "date": 2022,
+        "genre": ["Science-fiction", "Action", "Comedie"],
+        "acteur": ["Michelle Yeoh", "Ke Huy Quan", "Jamie Lee Curtis"]
+    },
+    {
+        "film": "Glass Onion",
+        "date": 2022,
+        "genre": ["Policier", "Comedie"],
+        "acteur": ["Daniel Craig", "Edward Norton", "Janelle Monae"]
+    },
+    {
+        "film": "Black Panther: Wakanda Forever",
+        "date": 2022,
+        "genre": ["Super-heros", "Action", "Drame"],
+        "acteur": ["Letitia Wright", "Angela Bassett", "Tenoch Huerta"]
+    },
+    {
+        "film": "Bullet Train",
+        "date": 2022,
+        "genre": ["Action", "Comedie"],
+        "acteur": ["Brad Pitt", "Aaron Taylor-Johnson", "Joey King"]
+    },
+    {
+        "film": "Nope",
+        "date": 2022,
+        "genre": ["Horreur", "Science-fiction"],
+        "acteur": ["Daniel Kaluuya", "Keke Palmer", "Steven Yeun"]
+    },
+    {
+        "film": "The Whale",
+        "date": 2022,
+        "genre": ["Drame"],
+        "acteur": ["Brendan Fraser", "Sadie Sink"]
+    },
+    {
+        "film": "John Wick: Chapitre 4",
+        "date": 2023,
+        "genre": ["Action", "Thriller"],
+        "acteur": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgard"]
+    },
+    {
+        "film": "Oppenheimer",
+        "date": 2023,
+        "genre": ["Biographie", "Drame", "Histoire"],
+        "acteur": ["Cillian Murphy", "Emily Blunt", "Robert Downey Jr.", "Matt Damon"]
+    },
+    {
+        "film": "Barbie",
+        "date": 2023,
+        "genre": ["Comedie", "Fantastique"],
+        "acteur": ["Margot Robbie", "Ryan Gosling", "America Ferrera"]
+    },
+    {
+        "film": "Les Gardiens de la Galaxie Vol. 3",
+        "date": 2023,
+        "genre": ["Science-fiction", "Action", "Super-heros"],
+        "acteur": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"]
+    },
+    {
+        "film": "Spider-Man: Across the Spider-Verse",
+        "date": 2023,
+        "genre": ["Animation", "Super-heros", "Action"],
+        "acteur": ["Shameik Moore", "Hailee Steinfeld", "Oscar Isaac"]
+    },
+    {
+        "film": "Killers of the Flower Moon",
+        "date": 2023,
+        "genre": ["Drame", "Crime", "Histoire"],
+        "acteur": ["Leonardo DiCaprio", "Robert De Niro", "Lily Gladstone"]
+    },
+    {
+        "film": "Wonka",
+        "date": 2023,
+        "genre": ["Fantastique", "Comedie"],
+        "acteur": ["Timothee Chalamet", "Hugh Grant", "Olivia Colman"]
+    },
+    {
+        "film": "Napoleon",
+        "date": 2023,
+        "genre": ["Histoire", "Drame", "Guerre"],
+        "acteur": ["Joaquin Phoenix", "Vanessa Kirby"]
+    },
+    {
+        "film": "Indiana Jones et le Cadran de la destinee",
+        "date": 2023,
+        "genre": ["Aventure", "Action"],
+        "acteur": ["Harrison Ford", "Phoebe Waller-Bridge", "Mads Mikkelsen"]
+    },
+    {
+        "film": "Pauvres Creatures (Poor Things)",
+        "date": 2023,
+        "genre": ["Comedie", "Science-fiction", "Drame"],
+        "acteur": ["Emma Stone", "Mark Ruffalo", "Willem Dafoe"]
+    },
+    {
+        "film": "Dune: Deuxieme Partie",
+        "date": 2024,
+        "genre": ["Science-fiction", "Aventure"],
+        "acteur": ["Timothee Chalamet", "Zendaya", "Austin Butler", "Florence Pugh"]
+    },
+    {
+        "film": "Furiosa: Une saga Mad Max",
+        "date": 2024,
+        "genre": ["Action", "Science-fiction"],
+        "acteur": ["Anya Taylor-Joy", "Chris Hemsworth"]
+    },
+    {
+        "film": "Deadpool & Wolverine",
+        "date": 2024,
+        "genre": ["Action", "Super-heros", "Comedie"],
+        "acteur": ["Ryan Reynolds", "Hugh Jackman", "Emma Corrin"]
+    },
+    {
+        "film": "Joker: Folie a Deux",
+        "date": 2024,
+        "genre": ["Drame", "Musical", "Crime"],
+        "acteur": ["Joaquin Phoenix", "Lady Gaga"]
+    },
+    {
+        "film": "Gladiator II",
+        "date": 2024,
+        "genre": ["Action", "Drame", "Histoire"],
+        "acteur": ["Paul Mescal", "Pedro Pascal", "Denzel Washington"]
+    },
+    {
+        "film": "The Substance",
+        "date": 2024,
+        "genre": ["Horreur", "Drame"],
+        "acteur": ["Demi Moore", "Margaret Qualley"]
+    },
+    {
+        "film": "Vice-Versa 2",
+        "date": 2024,
+        "genre": ["Animation", "Famille", "Comedie"],
+        "acteur": ["Amy Poehler", "Maya Hawke"]
+    },
+    {
+        "film": "Twisters",
+        "date": 2024,
+        "genre": ["Action", "Drame"],
+        "acteur": ["Daisy Edgar-Jones", "Glen Powell"]
+    },
+    {
+        "film": "Alien: Romulus",
+        "date": 2024,
+        "genre": ["Horreur", "Science-fiction"],
+        "acteur": ["Cailee Spaeny", "David Jonsson"]
+    },
+    {
+        "film": "Wicked",
+        "date": 2024,
+        "genre": ["Musical", "Fantastique"],
+        "acteur": ["Cynthia Erivo", "Ariana Grande"]
+    },
+    {
+        "film": "Mickey 17",
+        "date": 2025,
+        "genre": ["Science-fiction", "Action"],
+        "acteur": ["Robert Pattinson", "Steven Yeun", "Toni Collette"]
+    },
+    {
+        "film": "Superman",
+        "date": 2025,
+        "genre": ["Action", "Super-heros"],
+        "acteur": ["David Corenswet", "Rachel Brosnahan", "Nicholas Hoult"]
+    },
+    {
+        "film": "The Fantastic Four: First Steps",
+        "date": 2025,
+        "genre": ["Super-heros", "Action", "Science-fiction"],
+        "acteur": ["Pedro Pascal", "Vanessa Kirby", "Joseph Quinn"]
+    },
+    {
+        "film": "Avatar: Fire and Ash",
+        "date": 2025,
+        "genre": ["Science-fiction", "Aventure", "Action"],
+        "acteur": ["Sam Worthington", "Zoe Saldana"]
+    },
+    {
+        "film": "Thunderbolts*",
+        "date": 2025,
+        "genre": ["Action", "Super-heros"],
+        "acteur": ["Florence Pugh", "Sebastian Stan", "David Harbour"]
+    },
+    {
+        "film": "Elio",
+        "date": 2025,
+        "genre": ["Animation", "Science-fiction", "Aventure"],
+        "acteur": ["Yonas Kibreab", "America Ferrera"]
+    },
+    {
+        "film": "The Bride!",
+        "date": 2025,
+        "genre": ["Horreur", "Drame"],
+        "acteur": ["Jessie Buckley", "Christian Bale", "Penelope Cruz"]
+    },
+    {
+        "film": "Blanche-Neige",
+        "date": 2025,
+        "genre": ["Fantastique", "Famille"],
+        "acteur": ["Rachel Zegler", "Gal Gadot"]
     }
 ]
