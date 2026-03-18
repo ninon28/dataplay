@@ -180,6 +180,11 @@ p {
 .result-block--left .result-block__list {
   align-items: flex-end;
 }
+.result-block--left--opposite {
+  flex: 4;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  padding-right: 60px;
+}
 .result-block--right {
   flex: 6;
   padding-left: 20px;
