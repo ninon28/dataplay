@@ -150,6 +150,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 .result-block__item {
   width: -moz-fit-content;
@@ -172,12 +173,14 @@ p {
 .result-block--left {
   flex: 4;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
-  padding-right: 60px;
+  padding-right: 40px;
+}
+.result-block .result-block__list {
+  padding-left: 40px;
 }
 .result-block--opposite {
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
-  padding-left: 60px;
-  margin-left: -20px;
+  flex: 6;
+  padding-left: 40px;
 }
 .result-block--right {
   flex: 6;
@@ -274,7 +277,7 @@ p {
   color: #DDDDDD;
   text-decoration: none;
 }
-.footer:hover {
+.footer__link:hover {
   text-decoration: underline;
 }
 .footer p {
