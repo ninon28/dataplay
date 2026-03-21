@@ -191,7 +191,7 @@ p {
     background-color: $color-grey;
     color: $color-black;
     padding: 15px 45px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: $font-h3;
     font-weight: 900;
   }
@@ -205,13 +205,8 @@ p {
     text-align: center;
   }
 
-    .result-block__list{
-      padding-left: 40px;
-    }
-
   &--opposite{
     flex: 6;
-    padding-left: 40px; 
    
   }
 
@@ -268,19 +263,20 @@ p {
   text-align: center;
 
   &__logo-container{
-  width: 100%;
-  max-width: 1400px; 
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  padding: 20px 0;
+    width: 100%;
+    max-width: 1400px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    rotate: 180deg;
  }
 
   &__link{
-  display: inline-block;
-  color: $color-grey;
-  text-decoration: none;
-  transition: all 0.3s ease;
+    display: inline-block;
+    color: $color-grey;
+    text-decoration: none;
+    transition: all 0.3s ease;
 
     &:hover {
       color: $color-pink;
@@ -291,4 +287,8 @@ p {
     color: $color-grey;
     margin: 10px 0;
   }
+}
+
+img{
+  width: 100%;
 }

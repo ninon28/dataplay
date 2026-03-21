@@ -174,7 +174,7 @@ p {
   background-color: #DDDDDD;
   color: #222222;
   padding: 15px 45px;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 36px;
   font-weight: 900;
 }
@@ -186,12 +186,8 @@ p {
   margin: 0 auto;
   text-align: center;
 }
-.result-block .result-block__list {
-  padding-left: 40px;
-}
 .result-block--opposite {
   flex: 6;
-  padding-left: 40px;
 }
 .result-block--right {
   flex: 6;
@@ -247,6 +243,7 @@ p {
   display: flex;
   justify-content: center;
   padding: 20px 0;
+  rotate: 180deg;
 }
 .footer__link {
   display: inline-block;
@@ -260,6 +257,10 @@ p {
 .footer p {
   color: #DDDDDD;
   margin: 10px 0;
+}
+
+img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map*/
