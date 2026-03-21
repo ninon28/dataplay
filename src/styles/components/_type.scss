@@ -1,8 +1,6 @@
-@import '../utils/variables';
-
 body {
-    background-color: $main-bg;
-    color: $color-text-main; 
+    background-color: $color-black;
+    color: $color-grey; 
     font-family: 'Inter', sans-serif;
     font-size: $font-p;
 
@@ -53,7 +51,6 @@ p {
     margin: 0 auto;
     font-size: $font-p; 
     line-height: 1.6;   
-    color: $color-text-main; 
     opacity: 0.9;
   }
 }
@@ -69,7 +66,7 @@ p {
     list-style: none;
     padding: 0;
     margin: 0;
-    border: 1px solid rgba(221, 221, 221, 0.2);
+    border: 1px solid $color-grey--transparent2;
     border-radius: 12px;
     overflow: hidden;
   }
@@ -80,10 +77,12 @@ p {
     letter-spacing: 1px;
     padding: 15px 40px;
     cursor: pointer;
-    color: $color-text-main;
     transition: all 0.3s ease;
     position: relative;
 
+    &:hover{
+      color: $color-pink;
+    }
     
     &:not(:last-child)::after {
       content: '';
@@ -92,13 +91,12 @@ p {
       top: 20%;
       height: 60%;
       width: 1px;
-      background-color: rgba(221, 221, 221, 0.2);
+      background-color: $color-grey--transparent2;
     }
 
     &--active {
       font-weight: 700;
     }
-
   }
 }
 
@@ -115,8 +113,8 @@ p {
 
   .select__list {
     background-color: transparent;
-    color: $color-text-main;
-    border: 1px solid rgba(221, 221, 221, 0.3);
+    color: $color-grey;
+    border: 1px solid $color-grey--transparent2;
     border-radius: 12px;
     padding: 12px 20px;
     font-size: 16px; 
@@ -126,26 +124,33 @@ p {
 
     &:focus {
       outline: none;
-      border-color: rgba(221, 221, 221, 0.6);
-    }
-
-    option {
-      background-color: #1a1a1a; 
-      color: #fff;
+      border-color: $color-grey;
     }
   }
 
+  .search__input {
+    background-color: $color-grey--transparent2; 
+    color: $color-grey;
+    border: 1px solid $color-grey--transparent3;
+    border-radius: 8px; 
+    padding: 12px 20px;
+    font-size: 16px; 
+    min-width: 320px;
+  }
+
   .main__reset {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(221, 221, 221, 0.3);
-    border-radius: 12px;
+    background-color: $color-grey--transparent2; 
+    color: $color-grey;
+    border: 1px solid $color-grey--transparent3;
+    border-radius: 8px; 
     padding: 12px 35px;
     font-size: 16px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    
+    transition: scale 0.3s ease;
 
+    &:hover{
+      scale: 1.05;
+    }
   }
 }
 
@@ -164,19 +169,27 @@ p {
   flex-direction: column;
   justify-content: space-between;
   min-height: 500px;
+
+  &--line{
+    border-right: 1px solid $color-grey--transparent2;
+    padding-right: 40px;
+  }
   
   &__list {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
+
+    &--left{
+      align-items: end;
+    }
   }
 
   &__item {
     width: fit-content;
-    background-color: $color-result-bg;
-    color: $color-result-text;
+    background-color: $color-grey;
+    color: $color-black;
     padding: 15px 45px;
     border-radius: 15px;
     font-size: $font-h3;
@@ -191,12 +204,6 @@ p {
     margin: 0 auto;
     text-align: center;
   }
-
-  &--left {
-    flex: 4;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    padding-right: 40px;
-    }
 
     .result-block__list{
       padding-left: 40px;
@@ -256,50 +263,8 @@ p {
   }
  }
 
-
-.main__filters {
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
-
-  .select__element {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .search__input {
-    background-color: rgba(255, 255, 255, 0.05); 
-    color: $color-text-main;
-    border: 1px solid rgba(221, 221, 221, 0.3);
-    border-radius: 8px; 
-    padding: 12px 20px;
-    font-size: 16px; 
-    min-width: 320px;
-
-    &:focus {
-      outline: none;
-      border-color: rgba(221, 221, 221, 0.6);
-      background-color: rgba(255, 255, 255, 0.08);
-    }
-  }
-
-  .main__reset {
-    background-color: rgba(255, 255, 255, 0.2); 
-    color: rgba(255, 255, 255, 0.9);
-    border: 1px solid rgba(221, 221, 221, 0.3);
-    border-radius: 8px; 
-    padding: 12px 35px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-
-  }
-
-}
-
 .footer{
-  background-color: #222222;
+  background-color: $color-black;
   text-align: center;
 
   &__logo-container{
@@ -313,17 +278,17 @@ p {
 
   &__link{
   display: inline-block;
-  color:#DDDDDD;
+  color: $color-grey;
   text-decoration: none;
+  transition: all 0.3s ease;
 
-  &:hover {
-    text-decoration: underline;
-  }
-
+    &:hover {
+      color: $color-pink;
+    }
  }
 
    p {
-    color: #ffffff;
+    color: $color-grey;
     margin: 10px 0;
   }
 }
