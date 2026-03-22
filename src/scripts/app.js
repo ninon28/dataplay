@@ -142,10 +142,54 @@ btnValider.addEventListener('click', function() {
 
             console.log(statsGenres);
 
-        })
+        });
         
-    })
+    });
 
+    // --------------- part 3 : transfo des deux stats en tableau pr faciliter l'affichage apres
+
+    let tableauAnnees = Object.entries(statsAnnees);
+    let tableauGenres = Object.entries(statsGenres);
+
+    let topDates = tableauAnnees.slice(0, 4);
+    let topGenres = tableauGenres.slice(0, 4);
+
+    const infoGenres = document.querySelector('.actor__genre');
+    infoGenres.innerHTML = "";
+
+    const infoDates = document.querySelector('.actor__date');
+    infoDates.innerHTML = "";
+
+    let maxScoreGenre = topGenres[0][1];
+    let maxScoreDate = topDates[0][1];
+
+    topGenres.forEach(function(unGenre){
+        infoGenres.innerHTML += `
+
+            <div class="stat-line">
+                <span class="stat-label">${unGenre[0]}</span>
+                <div class="stat-bar-container">
+                    <div class="stat-bar-fill" style="width: ${unGenre[1] / maxScoreGenre * 100}%"></div>
+                </div>
+                <span class="stat-value">${unGenre[1]}</span>
+            </div>
+                
+        `;
+    });
+
+    topDates.forEach(function(uneDate){
+        infoDates.innerHTML += `
+
+            <div class="stat-line">
+                <span class="stat-label">${uneDate[0]}</span>
+                <div class="stat-bar-container">
+                    <div class="stat-bar-fill" style="width: ${uneDate[1] / maxScoreDate * 100}%"></div>
+                </div>
+                <span class="stat-value">${uneDate[1]}</span>
+            </div>
+                
+        `;
+    });
 
 });
 
