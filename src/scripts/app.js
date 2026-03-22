@@ -105,11 +105,29 @@ btnValider.addEventListener('click', function() {
 
     let filmsActeur = allFilms.filter(function(film){
         return film.acteur.some(function(acteur){
+            // some = en gros au moins 1 des acteurs correspond a l'acteur choisi 
+
             return acteur.nom === nomChoisi
         });
     });
 
-    console.log(filmsActeur);
+    //  la le but ça va etre de compté les données années et genre 
+
+    statsAnnees = {};
+    statsGenres = {};
+
+    filmsActeur.forEach(function(donnees){
+        let annee = donnees.date;
+
+        if(statsAnnees[annee]){
+            statsAnnees[annee] = statsAnnees[annee] + 1;
+        }else{
+            statsAnnees[annee] = 1;
+        }
+
+        console.log(statsAnnees)
+    })
+
 
 });
 
