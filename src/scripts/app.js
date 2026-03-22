@@ -18,12 +18,17 @@ navActor.addEventListener("click", actor);
 let allActors = [];
 //  la j'ai fait un tableau pour mettre tous les noms des acteurs qui auront été recup avec le json dcp
 
+let allFilms = [];
+
+
 fetch ('assets/data_yasmine.json')
 //  la dcp on charge le fichier json 
 .then(function(response){
     return response.json();
 })
 .then(function(json){
+
+    allFilms = json;
 
     json.forEach(function(film){
         film.acteur.forEach(function(myActor){
@@ -66,8 +71,45 @@ search.addEventListener('input', function(){
 
     if (userSearch.length > 2) {
         console.log(suggestions);
+
+        suggestions.forEach(function(proposition){
+            let laProposition = document.createElement('li')
+            laProposition.textContent = proposition
+            laProposition.addEventListener('click', function(autoSearch){
+                search.value = proposition ;
+            })
+
+            sugList.appendChild(laProposition);
+            // en gros ça me crée un li a chaque fois que j'ai UNE proposition dans ma liste de suggestions
+            // suggestions -> c'est un paqut de carte trié en petit paquet 
+            // ma fonction propistion et donc le tableau laProposition -> une carte par li dans le paquet déjà trié
+        })
+    
     }
 })
 
 
+
+
+// --------------------------- PARTIE AFFICHAGE
+
+
+// click sur valider -> filtre les données pour que le js reprenne tous les films ou les acteurs sont là 
+
+
+const btnValider = document.querySelector('.btn__valider')
+
+btnValider.addEventListener('click', function() {
+
+    nomChoisi = search.value ;
+
+    let filmsActeur = allFilms.filter(function(film){
+        return film.acteur.some(function(acteur){
+            return acteur.nom === nomChoisi
+        });
+    });
+
+    console.log(filmsActeur);
+
+});
 
