@@ -117,6 +117,9 @@ btnValider.addEventListener('click', function() {
     statsGenres = {};
 
     filmsActeur.forEach(function(donnees){
+
+        // ----------- la c'est la part 1 les années 
+
         let annee = donnees.date;
 
         if(statsAnnees[annee]){
@@ -125,7 +128,22 @@ btnValider.addEventListener('click', function() {
             statsAnnees[annee] = 1;
         }
 
-        console.log(statsAnnees)
+        
+
+        // ------------ part 2 les genres
+
+        donnees.genre.forEach(function(unGenre){
+
+            if(statsGenres[unGenre]){
+                statsGenres[unGenre] = statsGenres[unGenre] + 1;
+            }else{
+                statsGenres[unGenre] = 1;
+            }
+
+            console.log(statsGenres);
+
+        })
+        
     })
 
 
