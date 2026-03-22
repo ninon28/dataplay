@@ -1018,12 +1018,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Will Smith",
-            "Jared Leto",
-            "Margot Robbie",
-            "Joel Kinnaman",
-            "Viola Davis"
-
+            {
+                "nom": "Will Smith",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg/500px-TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Jared Leto",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Jared_Leto_by_Gage_Skidmore_2.jpg/500px-Jared_Leto_by_Gage_Skidmore_2.jpg"
+            },
+            {
+                "nom": "Margot Robbie",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/2/24/Margot_Robbie_at_29th_Critics%27_Choice_Awards.jpg_%28brightened%29.png"
+            },
+            {
+                "nom": "Joel Kinnaman",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Joel_Kinnaman_%2828494159712%29_%28cropped%29.jpg/500px-Joel_Kinnaman_%2828494159712%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Viola Davis",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Viola_Davis_by_Gage_Skidmore.jpg/500px-Viola_Davis_by_Gage_Skidmore.jpg"
+            }
         ]
     },
     {
@@ -1034,9 +1048,14 @@
             "Romance"
         ],
         "acteur": [
-            "Emma Stone",
-            "Ryan Gosling"
-
+            {
+                "nom": "Emma Stone",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Emma_Stone_at_the_2025_Cannes_Film_Festival_04.jpg/500px-Emma_Stone_at_the_2025_Cannes_Film_Festival_04.jpg"
+            },
+            {
+                "nom": "Ryan Gosling",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ryan_Gosling_-_2023_%2853389514500%29_%28cropped%29.jpg/500px-Ryan_Gosling_-_2023_%2853389514500%29_%28cropped%29.jpg"
+            }
         ]
     },
     {
@@ -1046,11 +1065,26 @@
             "Science-fiction"
         ],
         "acteur": [
-            "Felicity Jones",
-            "Diego Luna",
-            "Ben Mendelsohn",
-            "Forest Whitaker",
-            "Mads Mikkelsen"
+            {
+                "nom": "Felicity Jones",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Felicity_Jones_at_TIFF_2025_01.jpg/500px-Felicity_Jones_at_TIFF_2025_01.jpg"
+            },
+            {
+                "nom": "Diego Luna",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Diego_Luna_2017.jpg/500px-Diego_Luna_2017.jpg"
+            },
+            {
+                "nom": "Ben Mendelsohn",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ben_Mendelsohn_by_Gage_Skidmore.jpg/500px-Ben_Mendelsohn_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Forest Whitaker",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Forest_Whitaker_Cannes_2013_2.jpg/500px-Forest_Whitaker_Cannes_2013_2.jpg"
+            },
+            {
+                "nom": "Mads Mikkelsen",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mads_Mikkelsen_at_82nd_Venice_International_Film_Festival_%28cropped%29.jpg/500px-Mads_Mikkelsen_at_82nd_Venice_International_Film_Festival_%28cropped%29.jpg"
+            }
   
         ]
     },
@@ -1062,11 +1096,26 @@
             "Biopic"
         ],
         "acteur": [
-            "Andrew Garfield",
-            "Vince Vaughn",
-            "Sam Worthington",
-            "Teresa Palmer",
-            "Hugo Weaving"
+            {
+                "nom": "Andrew Garfield",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Andrew_Garfield_After_The_Hunt-22_%28cropped%29.jpg/500px-Andrew_Garfield_After_The_Hunt-22_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Vince Vaughn",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/9/98/Actor_Vince_Vaughn_2025_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Sam Worthington",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Sam_Worthington_%2852563252594%29_%28cropped%29.jpg/500px-Avatar_The_Way_of_Water_Tokyo_Press_Conference_Sam_Worthington_%2852563252594%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Teresa Palmer",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Teresa_Palmer_2012.jpg/500px-Teresa_Palmer_2012.jpg"
+            },
+            {
+                "nom": "Hugo Weaving",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Hugo_Weaving.jpg"
+            }
           
         ]
     },
@@ -1078,12 +1127,26 @@
             "Psychologique"
         ],
         "acteur": [
-            "James McAvoy",
-            "Anya Taylor-Joy",
-            "Betty Buckley",
-            "Jessica Sula",
-            "Haley Lu Richardson"
-        
+            {
+                "nom": "James McAvoy",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/James_McAvoy_by_Gage_Skidmore_2.jpg/500px-James_McAvoy_by_Gage_Skidmore_2.jpg"
+            },
+            {
+                "nom": "Anya Taylor-Joy",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Anya_Taylor-Joy_at_the_2025_Toronto_International_Film_Festival._07_%28cropped%29.jpg/960px-Anya_Taylor-Joy_at_the_2025_Toronto_International_Film_Festival._07_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Betty Buckley",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Betty_Buckley_Eight_Is_Enough_1977.JPG/500px-Betty_Buckley_Eight_Is_Enough_1977.JPG"
+            },
+            {
+                "nom": "Jessica Sula",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Jessica_Sula.jpg/500px-Jessica_Sula.jpg"
+            },
+            {
+                "nom": "Haley Lu Richardson",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Haley_Lu_Richardson-4321.jpg/500px-Haley_Lu_Richardson-4321.jpg"
+            }
         ]
     },
     {
@@ -1096,11 +1159,22 @@
             "Road movie"
         ],
         "acteur": [
-            "Hugh Jackman",
-            "Dafne Keen",
-            "Patrick Stewart",
-            "Boyd Holbrook"
-
+            {
+                "nom": "Hugh Jackman",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Hugh_Jackman_Is_This_Thing_On-68_%28cropped%29.jpg/500px-Hugh_Jackman_Is_This_Thing_On-68_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Dafne Keen",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Dafne_Keen_%2848383778052%29_%28cropped%29.jpg/500px-Dafne_Keen_%2848383778052%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Patrick Stewart",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/PatrickStew211023_%283_of_23%29_%2853275039331%29_%28cropped%29.jpg/500px-PatrickStew211023_%283_of_23%29_%2853275039331%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Boyd Holbrook",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Boyd_Holbrook_%2840061613100%29.jpg/500px-Boyd_Holbrook_%2840061613100%29.jpg"
+            }
         ]
     },
     {
@@ -1111,11 +1185,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Chris Hemsworth",
-            "Tom Hiddleston",
-            "Cate Blanchett",
-            "Idris Elba",
-            "Mark Ruffalo"
+            {
+                "nom": "Chris Hemsworth",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chris_Hemsworth_by_Gage_Skidmore_3.jpg/500px-Chris_Hemsworth_by_Gage_Skidmore_3.jpg"
+            },
+            {
+                "nom": "Tom Hiddleston",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Tom_Hiddleston_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg/960px-Tom_Hiddleston_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Cate Blanchett",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cate_Blanchett_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/500px-Cate_Blanchett_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Idris Elba",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Idris_Elba_A_House_of_Dynamite-23.jpg/960px-Idris_Elba_A_House_of_Dynamite-23.jpg"
+            },
+            {
+                "nom": "Mark Ruffalo",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg/960px-Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg"
+            }
 
         ]
     },
@@ -1127,11 +1216,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Chris Pratt",
-            "Zoe Saldaña",
-            "David Bautista",
-            "Vin Diesel",
-            "Bradley Cooper"
+            {
+                "nom": "Chris Pratt",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Chris_Pratt_%2828046106184%29_%28cropped%29.jpg/500px-Chris_Pratt_%2828046106184%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Zoe Saldaña",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Zoe_Salda%C3%B1a_at_the_2024_Toronto_International_Film_Festival_2_%28cropped_2%29.jpg/960px-Zoe_Salda%C3%B1a_at_the_2024_Toronto_International_Film_Festival_2_%28cropped_2%29.jpg"
+            },
+            {
+                "nom": "David Bautista",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Dave_Bautista_2023.png/500px-Dave_Bautista_2023.png"
+            },
+            {
+                "nom": "Vin Diesel",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Vin_Diesel_2017.jpg"
+            },
+            {
+                "nom": "Bradley Cooper",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Bradley_Cooper_Is_This_Thing_On-41_%28cropped%29.jpg/960px-Bradley_Cooper_Is_This_Thing_On-41_%28cropped%29.jpg"
+            }
         ]
     },
     {
@@ -1142,10 +1246,22 @@
             "Psychologique"
         ],
         "acteur": [
-            "Daniel Kaluuya",
-            "Allison Williams",
-            "Catherine Keener",
-            "Bradley Whitford"
+            {
+                "nom": "Daniel Kaluuya",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Daniel_Kaluuya_%282017%29.jpg/500px-Daniel_Kaluuya_%282017%29.jpg"
+            },
+            {
+                "nom": "Allison Williams",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Allison_Williams_DSM-11_%28cropped%29.jpg/500px-Allison_Williams_DSM-11_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Catherine Keener",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Catherine_Keener_-_The_40-Year-Old-Virgin.jpg/500px-Catherine_Keener_-_The_40-Year-Old-Virgin.jpg"
+            },
+            {
+                "nom": "Bradley Whitford",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Bradley_Whitford_Photo_Op_GalaxyCon_Richmond_2025.jpg/500px-Bradley_Whitford_Photo_Op_GalaxyCon_Richmond_2025.jpg"
+            }
         ]
     },
     {
@@ -1156,11 +1272,26 @@
             "Historique"
         ],
         "acteur": [
-            "Fionn Whitehead",
-            "Tom Glynn-Carney",
-            "Jack Lowden",
-            "Harry Styles",
-            "Aneurin Barnard"
+            {
+                "nom": "Fionn Whitehead",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Fionn_Whitehead_at_London%27s_Dunkirk_World_Premiere.jpg/500px-Fionn_Whitehead_at_London%27s_Dunkirk_World_Premiere.jpg"
+            },
+            {
+                "nom": "Tom Glynn-Carney",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tom_Glynn-Carney_by_Gage_Skidmore.jpg/500px-Tom_Glynn-Carney_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Jack Lowden",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/9/96/Jack_Lowden.jpg"
+            },
+            {
+                "nom": "Harry Styles",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/500px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg"
+            },
+            {
+                "nom": "Aneurin Barnard",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Aneurin_Barnard_at_the_premiere_of_Goldfinch%2C_2019_Toronto_Film_Festival_%2848810071091%29.jpg/500px-Aneurin_Barnard_at_the_premiere_of_Goldfinch%2C_2019_Toronto_Film_Festival_%2848810071091%29.jpg"
+            }
         ]
     },
     {
@@ -1171,11 +1302,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Tom Holland",
-            "Michael Keaton",
-            "Robert Downey Jr.",
-            "Marisa Tomei",
-            "Jon Favreau"
+            {
+                "nom": "Tom Holland",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg/500px-Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg"
+            },
+            {
+                "nom": "Michael Keaton",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Michael_Keaton-63916_%28cropped%29.jpg/960px-Michael_Keaton-63916_%28cropped%29.jpg"
+            },
+            {
+                "nom":  "Robert Downey Jr.",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg/500px-Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Marisa Tomei",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Marisa_Tomei_Photo_Op_GalaxyCon_Raleigh_2024_%28cropped%29.jpg/500px-Marisa_Tomei_Photo_Op_GalaxyCon_Raleigh_2024_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Jon Favreau",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jon_Favreau_2016.jpeg/500px-Jon_Favreau_2016.jpeg"
+            }
         ]
     },
     {
@@ -1185,11 +1331,26 @@
             "Science-fiction"
         ],
         "acteur": [
-            "Ryan Gosling",
-            "Harrison Ford",
-            "Ana de Armas",
-            "Robin Wright",
-            "Sylvia Hoeks"
+            {
+                "nom": "Ryan Gosling",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ryan_Gosling_-_2023_%2853389514500%29_%28cropped%29.jpg/500px-Ryan_Gosling_-_2023_%2853389514500%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Harrison Ford",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Harrison_Ford_-_Televerse_2025_%28cropped%29.jpg/500px-Harrison_Ford_-_Televerse_2025_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Ana de Armas",
+                "lien":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ana_de_Armas_2017_crop.jpg/500px-Ana_de_Armas_2017_crop.jpg"
+            },
+            {
+                "nom": "Robin Wright",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Robin_Wright_Cannes_2017.jpg"
+            },
+            {
+                "nom": "Sylvia Hoeks",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Sylvia_Hoeks_%2836201224545%29_cropped.jpg/500px-Sylvia_Hoeks_%2836201224545%29_cropped.jpg"
+            }
         ]
     },
     {
@@ -1199,11 +1360,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Gal Gadot",
-            "Lilly Aspell",
-            "Emily Carey",
-            "Chris Pine",
-            "Connie Nielsen"
+            {
+                "nom": "Gal Gadot",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Gal_Gadot_cropped_lighting_corrected_2b.jpg/500px-Gal_Gadot_cropped_lighting_corrected_2b.jpg"
+            },
+            {
+                "nom": "Lilly Aspell",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lilly_aspell_2021_1.jpg/500px-Lilly_aspell_2021_1.jpg"
+            },
+            {
+                "nom": "Emily Carey",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Emily_Carey_as_Alicent_Hightower_in_HotD_2024.jpg/500px-Emily_Carey_as_Alicent_Hightower_in_HotD_2024.jpg"
+            },
+            {
+                "nom": "Chris Pine",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Chris_Pine_%28Cropped%29.jpg/500px-Chris_Pine_%28Cropped%29.jpg"
+            },
+            {
+                "nom": "Connie Nielsen",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Connie_Nielsen_by_Gage_Skidmore.jpg/500px-Connie_Nielsen_by_Gage_Skidmore.jpg"
+            }
         ]
     },
     {
@@ -1213,11 +1389,26 @@
             "Science-fiction"
         ],
         "acteur": [
-            "Daisy Ridley",
-            "Adam Driver",
-            "John Boyega",
-            "Oscar Isaac",
-            "Mark Hamill"
+            {
+                "nom": "Daisy Ridley",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daisy_Ridley_Our_Movie_Guide_2024.png/500px-Daisy_Ridley_Our_Movie_Guide_2024.png"
+            },
+            {
+                "nom":  "Adam Driver",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Adam_Driver.jpg/500px-Adam_Driver.jpg"
+            },
+            {
+                "nom": "John Boyega",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/John_Boyega_by_Gage_Skidmore.jpg/500px-John_Boyega_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Oscar Isaac",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Oscar_Isaac_at_82nd_Venice_International_Film_Festival-1_%28cropped%29.jpg/500px-Oscar_Isaac_at_82nd_Venice_International_Film_Festival-1_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Mark Hamill",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Mark_Hamill_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg/500px-Mark_Hamill_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg"
+            }
         ]
     },
     {
@@ -1228,10 +1419,22 @@
             "Thriller"
         ],
         "acteur": [
-            "Jaeden Martell",
-            "Finn Wolfhard",
-            "Sophia Lillis",
-            "Jack Dylan Grazer"
+            {
+                "nom": "Jaeden Martell",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Jaeden_Martell_%2841146322601%29.jpg/500px-Jaeden_Martell_%2841146322601%29.jpg"
+            },
+            {
+                "nom": "Finn Wolfhard",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Stranger_Things_cast_2025_%282%29_%28cropped%29.png/500px-Stranger_Things_cast_2025_%282%29_%28cropped%29.png"
+            },
+            {
+                "nom":  "Sophia Lillis",
+                "lien":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/MKr22394_Sophia_Lillis_The_Adults_%28Berlinale_2023%29_%28cropped%29.jpg/500px-MKr22394_Sophia_Lillis_The_Adults_%28Berlinale_2023%29_%28cropped%29.jpg"
+            },
+            {
+                "nom":  "Jack Dylan Grazer",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Jack_Dylan_Grazer_Photo_Op_GalaxyCon_Des_Moines_2025.jpg/500px-Jack_Dylan_Grazer_Photo_Op_GalaxyCon_Des_Moines_2025.jpg"
+            }
         ]
     },
     {
@@ -1242,11 +1445,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Chris Evans",
-            "Robert Downey Jr.",
-            "Chris Hemsworth",
-            "Mark Ruffalo",
-            "Scarlett Johansson"
+            {
+                "nom": "Chris Evans",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg/500px-Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Robert Downey Jr.",
+                "lien":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg/500px-Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Chris HemsWorth",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chris_Hemsworth_by_Gage_Skidmore_3.jpg/500px-Chris_Hemsworth_by_Gage_Skidmore_3.jpg"
+            },
+            {
+                "nom": "Mark Ruffalo",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg/960px-Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Scarlett Johansson",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Scarlett_Johansson_293_%28cropped2%29.jpg/500px-Scarlett_Johansson_293_%28cropped2%29.jpg"
+            }
         ]
     },
     {
@@ -1257,11 +1475,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Chadwick Boseman",
-            "Michael B. Jordan",
-            "Lupita Nyong'o",
-            "Danai Gurira",
-            "Martin Freeman"
+            {
+                "nom": "Chadwick Boseman",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg/500px-Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Michael B. Jordan",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Michael_B_Jordan_-_Sinners.jpg/500px-Michael_B_Jordan_-_Sinners.jpg"
+            },
+            {
+                "nom": "Lupita Nyong'o",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lupita_Nyong%27o_by_Gage_Skidmore_4.jpg/500px-Lupita_Nyong%27o_by_Gage_Skidmore_4.jpg"
+            },
+            {
+                "nom": "Danai Gurira",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Danai_Gurira_%2848411663897%29_%28cropped%29.jpg/500px-Danai_Gurira_%2848411663897%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Martin Freeman",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Martin_Freeman-5341.jpg/500px-Martin_Freeman-5341.jpg"
+            }
         ]
     },
     {
@@ -1272,11 +1505,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Ryan Reynolds",
-            "Josh Brolin",
-            "Morena Baccarin",
-            "Julian Dennison",
-            "Zazie Beetz"
+            {
+                "nom": "Ryan Reynolds",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Deadpool_%26_Wolverine_panel_by_Gage_Skidmore_%28cropped%29.jpg/500px-Deadpool_%26_Wolverine_panel_by_Gage_Skidmore_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Josh Brolin",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Josh_Brolin_TIFF_2025_%28cropped%29.jpg/500px-Josh_Brolin_TIFF_2025_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Morena Baccarin",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Morena_Baccarin_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/500px-Morena_Baccarin_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Julian Dennison",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Julian_Dennison_2016.jpg/500px-Julian_Dennison_2016.jpg"
+            },
+            {
+                "nom": "Zazie Beetz",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Zazie_Beetz-4204.jpg/500px-Zazie_Beetz-4204.jpg"
+            }
         ]
     },
     {
@@ -1286,11 +1534,22 @@
             "Biographique"
         ],
         "acteur": [
-            "Viggo Mortensen",
-            "Mahershala Ali",
-            "Linda Cardellini",
-            "Dimiter Marinov",
-            "Mike Hatton"
+            {
+                "nom": "Viggo Mortensen",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Viggo_Mortensen%2C_director_y_actor%2C_en_AWFF_2024_%28cropped%29.jpg/500px-Viggo_Mortensen%2C_director_y_actor%2C_en_AWFF_2024_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Mahershala Ali",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Mahershala_Ali_by_Gage_Skidmore_%28cropped%29.jpg/500px-Mahershala_Ali_by_Gage_Skidmore_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Linda Cardellini",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/South_by_Southwest_2019_7_%2832449999697%29_%28cropped%29.jpg/500px-South_by_Southwest_2019_7_%2832449999697%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Dimiter Marinov",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mitkowiki.jpg/500px-Mitkowiki.jpg"
+            }
         ]
     },
     {
@@ -1301,11 +1560,26 @@
             "Post-apocalyptique"
         ],
         "acteur": [
-            "Emily Blunt",
-            "John Krasinski",
-            "Noah Jupe",
-            "Millicent Simmonds",
-            "Leon Russom"
+            {
+                "nom":  "Emily Blunt",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Emily_Blunt_at_WWD_Style_Awards_2026_%28cropped%29.jpg/500px-Emily_Blunt_at_WWD_Style_Awards_2026_%28cropped%29.jpg"
+            },
+            {
+                "nom": "John Krasinski",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/John_Krasinski_at_TIFF_2025_02_%28cropped%29.jpg/500px-John_Krasinski_at_TIFF_2025_02_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Noah Jupe",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Noah_Jupe_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg/500px-Noah_Jupe_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Millicent Simmonds",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Millicent_simmonds_2021_1.jpg/500px-Millicent_simmonds_2021_1.jpg"
+            },
+            {
+                "nom": "Leon Russom",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Leon_Russom_Toni_Kalem_Another_World_1976.JPG"
+            }
         ]
     },
     {
@@ -1315,11 +1589,26 @@
             "Biographique"
         ],
         "acteur": [
-            "Rami Malek",
-            "Ben Hardy",
-            "Joseph Mazzello",
-            "Gwilym Lee",
-            "Lucy Boynton"
+            {
+                "nom": "Rami Malek",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/SXSW_2016_-_Rami_Malek_%2825138464364%29_%28cropped_2%29.jpg/500px-SXSW_2016_-_Rami_Malek_%2825138464364%29_%28cropped_2%29.jpg"
+            },
+            {
+                "nom": "Ben Hardy",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Ben_Hardy_by_Gage_Skidmore.jpg/500px-Ben_Hardy_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Joseph Mazzello",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Joseph_Mazzello_Photo_Op_GalaxyCon_St._Louis_2025.jpg/500px-Joseph_Mazzello_Photo_Op_GalaxyCon_St._Louis_2025.jpg"
+            },
+            {
+                "nom": "Gwilym Lee",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Gwilym_Lee_on_MTV_Movies.jpg"
+            },
+            {
+                "nom": "Lucy Boynton",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Lucy_Boynton_on_MTV_Movies_2.jpg/500px-Lucy_Boynton_on_MTV_Movies_2.jpg"
+            }
         ]
     },
     {
@@ -1329,11 +1618,26 @@
             "Science-fiction"
         ],
         "acteur": [
-            "Tom Hardy",
-            "Michelle Williams",
-            "Riz Ahmed",
-            "Scott Haze",
-            "Reid Scott"
+            {
+                "nom":  "Tom Hardy",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tom_Hardy_by_Gage_Skidmore_in_2018.jpg/960px-Tom_Hardy_by_Gage_Skidmore_in_2018.jpg"
+            },
+            {
+                "nom": "Michelle Williams",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Michelle_Williams_2012_Shankbone_3_%28cropped%29.JPG/960px-Michelle_Williams_2012_Shankbone_3_%28cropped%29.JPG"
+            },
+            {
+                "nom": "Riz Ahmed",
+                "lien": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Riz_Ahmed-7658.jpg/500px-Riz_Ahmed-7658.jpg"
+            },
+            {
+                "nom": "Scott Haze",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Hazel_Scott_1947.jpg/500px-Hazel_Scott_1947.jpg"
+            },
+            {
+                "nom": "Reid Scott",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Reid_Scott_2014.jpg/500px-Reid_Scott_2014.jpg"
+            }
         ]
     },
     {
@@ -1345,12 +1649,30 @@
             "Fantaisie"
         ],
         "acteur": [
-            "Jason Momoa",
-            "Amber Heard",
-            "Willem Dafoe",
-            "Patrick Wilson",
-            "Nicole Kidman",
-            "Dolph Lundgren"
+            {
+                "nom": "Jason Momoa",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Jason_Momoa_by_Gage_Skidmore_2.jpg/500px-Jason_Momoa_by_Gage_Skidmore_2.jpg"
+            },
+            {
+                "nom": "Amber Heard",
+                "lien": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Amber_Heard_Cannes_2019.jpg/500px-Amber_Heard_Cannes_2019.jpg"
+            },
+            {
+                "nom": "Willem Dafoe",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Willem_Dafoe_at_78th_Locarno_Film_Festival.jpg/500px-Willem_Dafoe_at_78th_Locarno_Film_Festival.jpg"
+            },
+            {
+                "nom":  "Patrick Wilson",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Patrick_Wilson_Jay_Kelly-51_%28cropped%29.jpg/500px-Patrick_Wilson_Jay_Kelly-51_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Nicole Kidman",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nicole_Kidman-66059_%28cropped%29.jpg/500px-Nicole_Kidman-66059_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Dolph Lundgren",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Dolph_Lundgren_Photo_Op_GalaxyCon_Richmond_2024.jpg/500px-Dolph_Lundgren_Photo_Op_GalaxyCon_Richmond_2024.jpg"
+            }
         ]
     },
     {
@@ -1360,11 +1682,26 @@
             "Science-fiction"
         ],
         "acteur": [
-            "Tye Sheridan",
-            "Olivia Cooke",
-            "Ben Mendelsohn",
-            "Simon Pegg",
-            "Mark Rylance"
+            {
+                "nom": "Tye Sheridan",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tye_Sheridan_at_the_2024_Toronto_International_Film_Festival_6.jpg/500px-Tye_Sheridan_at_the_2024_Toronto_International_Film_Festival_6.jpg"
+            },
+            {
+                "nom": "Olivia Cooke",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Olivia_Cooke_by_Gage_Skidmore_2.jpg/500px-Olivia_Cooke_by_Gage_Skidmore_2.jpg"
+            },
+            {
+                "nom": "Ben Mendelsohn",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ben_Mendelsohn_by_Gage_Skidmore.jpg/500px-Ben_Mendelsohn_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Simon Pegg",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Simon_Pegg_by_Gage_Skidmore_3.jpg/500px-Simon_Pegg_by_Gage_Skidmore_3.jpg"
+            },
+            {
+                "nom": "Mark Rylance",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Mark_Rylance_Deauville_2019.jpg/500px-Mark_Rylance_Deauville_2019.jpg"
+            }
         ]
     },
     {
@@ -1375,11 +1712,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Paul Rudd",
-            "Evangeline Lilly",
-            "Michael Douglas",
-            "Michelle Pfeiffer",
-            "Michael Peña"
+            {
+                "nom": "Paul Rudd",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Paul_Rudd_and_Kate_Mara_at_the_2024_Toronto_International_Film_Festival_9.jpg/500px-Paul_Rudd_and_Kate_Mara_at_the_2024_Toronto_International_Film_Festival_9.jpg"
+            },
+            {
+                "nom": "Evangeline Lilly",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/0/06/Evangeline_Lilly_GalaxyCon_Columbus_2023_%28B100108%29_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Michael Douglas",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/59th_Karlovy_Vary_International_Film_Festival%2C_Michael_Douglas_07_%28cropped%29.jpg/960px-59th_Karlovy_Vary_International_Film_Festival%2C_Michael_Douglas_07_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Michael Peña",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Michael_Pe%C3%B1a-4421.jpg/500px-Michael_Pe%C3%B1a-4421.jpg"
+            },
+            {
+                "nom": "Michelle Pfeiffer",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/1/19/Michelle_Pfeiffer_Ant-Man_%26_The_Wasp_premiere.jpg"
+            }
         ]
     },
     {
@@ -1390,10 +1742,22 @@
             "Psychologique"
         ],
         "acteur": [
-            "Joaquin Phoenix",
-            "Robert De Niro",
-            "Zazie Beetz",
-            "Frances Conroy"
+            {
+                "nom": "Joaquin Phoenix",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Joaquin_Phoenix-64987_%28cropped%29.jpg/960px-Joaquin_Phoenix-64987_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Robert De Niro",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Robert_De_Niro_at_Cannes_2025_at_a_Photocall_06.jpg/500px-Robert_De_Niro_at_Cannes_2025_at_a_Photocall_06.jpg"
+            },
+            {
+                "nom": "Zazie Beetz",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Zazie_Beetz-4204.jpg/1280px-Zazie_Beetz-4204.jpg"
+            },
+            {
+                "nom": "Frances Conroy",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Frances_Conroy_at_PaleyFest_2014_-_13491478183.jpg/500px-Frances_Conroy_at_PaleyFest_2014_-_13491478183.jpg"
+            }
         ]
     },
     {
@@ -1404,12 +1768,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Chris Evans",
-            "Robert Downey Jr.",
-            "Mark Ruffalo",
-            "Chris Hemsworth",
-            "Scarlett Johansson",
-            "Jeremy Renner"
+            {
+                "nom": "Chris Evans",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg/500px-Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Mark Ruffalo",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg/960px-Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Chris Hemsworth",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chris_Hemsworth_by_Gage_Skidmore_3.jpg/500px-Chris_Hemsworth_by_Gage_Skidmore_3.jpg"
+            },
+            {
+                "nom": "Scarlett Johansson",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Scarlett_Johansson_293_%28cropped2%29.jpg/500px-Scarlett_Johansson_293_%28cropped2%29.jpg"
+            },
+            {
+                "nom": "Jeremy Renner",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Jeremy_Renner_at_TIFF_2025_%28cropped%29.jpg/500px-Jeremy_Renner_at_TIFF_2025_%28cropped%29.jpg"
+            }
         ]
     },
     {
@@ -1420,12 +1798,30 @@
             "Comédie noire"
         ],
         "acteur": [
-            "Song Kang-ho",
-            "Lee Sun-kyun",
-            "Cho Yeo-jeong",
-            "Jang Hye-jin",
-            "Choi Woo-shik",
-            "Park So-dam"
+            {
+                "nom": "Song Kang-ho",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/d/df/Song_Gangho_2016.jpg"
+            },
+            {
+                "nom": "Lee Sun-kyun",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Lee_Seon-gun_in_Oct_2018.png/500px-Lee_Seon-gun_in_Oct_2018.png"
+            },
+            {
+                "nom": "Cho Yeo-jeong",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Cho_Yeo-jeong_in_June_2024.png/500px-Cho_Yeo-jeong_in_June_2024.png"
+            },
+            {
+                "nom": "Jang Hye-jin",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Jang_Hye-jin_at_Parasite_%28film%29_event_in_2019.jpg"
+            },
+            {
+                "nom": "Choi Woo-shik",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/211227_%EC%B5%9C%EC%9A%B0%EC%8B%9D.png/500px-211227_%EC%B5%9C%EC%9A%B0%EC%8B%9D.png"
+            },
+            {
+                "nom": "Park So-dam",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Park_So-dam_%EB%B0%95%EC%86%8C%EB%8B%B4_2022.jpg/500px-Park_So-dam_%EB%B0%95%EC%86%8C%EB%8B%B4_2022.jpg"
+            }
         ]
     },
     {
@@ -1435,9 +1831,18 @@
             "Comédie noire"
         ],
         "acteur": [
-            "Leonardo DiCaprio",
-            "Brad Pitt",
-            "Margot Robbie"
+            {
+                "nom": "Leonardo DiCaprio",
+                "lien": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg/500px-LeoPTABFI191125-28_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Brad Pitt",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Brad_Pitt-69858.jpg/500px-Brad_Pitt-69858.jpg"
+            },
+            {
+                "nom": "Margot Robbie",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/2/24/Margot_Robbie_at_29th_Critics%27_Choice_Awards.jpg_%28brightened%29.png"
+            }
         ]
     },
     {
@@ -1448,11 +1853,26 @@
             "Comédie"
         ],
         "acteur": [
-            "Daniel Craig",
-            "Ana de Armas",
-            "Chris Evans",
-            "Jamie Lee Curtis",
-            "Christopher Plummer"
+            {
+                "nom": "Daniel Craig",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Daniel_Craig_TIFF_2025_Red_Carpet_%28cropped%29.jpg/960px-Daniel_Craig_TIFF_2025_Red_Carpet_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Ana de Armas",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ana_de_Armas_2017_crop.jpg/500px-Ana_de_Armas_2017_crop.jpg"
+            },
+            {
+                "nom": "Chris Evans",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg/500px-Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Jamie Lee Curtis",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/2025_Jamie_Lee_Curtis_%28cropped%29.jpg/500px-2025_Jamie_Lee_Curtis_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Christopher Plummer",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Christopher_Plummer_2014.jpg/500px-Christopher_Plummer_2014.jpg"
+            }
         ]
     },
     {
@@ -1462,11 +1882,26 @@
             "Guerre"
         ],
         "acteur": [
-            "George MacKay",
-            "Dean-Charles Chapman",
-            "Colin Firth",
-            "Andrew Scott",
-            "Mark Strong"
+            {
+                "nom": "George MacKay",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/George_MacKay_at_82nd_Venice_International_Film_Festival-2_%28cropped%29.jpg/500px-George_MacKay_at_82nd_Venice_International_Film_Festival-2_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Dean-Charles Chapman",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dean-Charles_Chapman_-_Comic_Con_Germany_2022_-_253_%28cropped%29.jpg/500px-Dean-Charles_Chapman_-_Comic_Con_Germany_2022_-_253_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Colin Firth",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Colin_Firth_by_Gage_Skidmore_2.jpg/500px-Colin_Firth_by_Gage_Skidmore_2.jpg"
+            },
+            {
+                "nom":"Andrew Scott",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Andrew_Scott_at_Berlinale_2025_%28cropped%29.jpg/500px-Andrew_Scott_at_Berlinale_2025_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Mark Strong",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Mark_Strong.jpg"
+            }
         ]
     },
     {
@@ -1477,11 +1912,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Brie Larson",
-            "Samuel L. Jackson",
-            "Ben Mendelsohn",
-            "Jude Law",
-            "Annette Bening"
+            {
+                "nom": "Brie Larson",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Captain_Marvel_trailer_at_the_National_Air_and_Space_Museum_4_%28cropped%29.jpg/960px-Captain_Marvel_trailer_at_the_National_Air_and_Space_Museum_4_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Samuel L. Jackson",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/500px-SamuelLJackson.jpg"
+            },
+            {
+                "nom": "Ben Mendelsohn",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ben_Mendelsohn_by_Gage_Skidmore.jpg/500px-Ben_Mendelsohn_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Jude Law",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Jude_Law-7806.jpg/960px-Jude_Law-7806.jpg"
+            },
+            {
+                "nom": "Annette Bening",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/AnnetteBeningSept2013TIFF.jpg/500px-AnnetteBeningSept2013TIFF.jpg"
+            }
         ]
     },
     {
@@ -1492,11 +1942,26 @@
             "Super-héros"
         ],
         "acteur": [
-            "Tom Holland",
-            "Samuel L. Jackson",
-            "Jake Gyllenhaal",
-            "Zendaya",
-            "Jon Favreau"
+            {
+                "nom": "Tom Holland",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg/500px-Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg"
+            },
+            {
+                "nom": "Samuel L. Jackson",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/500px-SamuelLJackson.jpg"
+            },
+            {
+                "nom": "Jake Gyllenhaal",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Jake_Gyllenhaal_2019_by_Glenn_Francis.jpg/500px-Jake_Gyllenhaal_2019_by_Glenn_Francis.jpg"
+            },
+            {
+                "nom": "Zendaya",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/5/53/Zendaya_Paris_2025.jpg"
+            },
+            {
+                "nom": "Jon Favreau",
+                "lien":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jon_Favreau_2016.jpeg/500px-Jon_Favreau_2016.jpeg"
+            }
         ]
     },
     {
@@ -1507,8 +1972,14 @@
             "Biopic"
         ],
         "acteur": [
-            "Matt Damon",
-            "Christian Bale"
+            {
+                "nom": "Matt Damon",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Matt_Damon_at_Berlinale_2024_Ausschnitt.jpg/500px-Matt_Damon_at_Berlinale_2024_Ausschnitt.jpg"
+            },
+            {
+                "nom": "Christian Bale",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Christian_Bale-7837.jpg/500px-Christian_Bale-7837.jpg"
+            }
         ]
     },
     {
@@ -1518,11 +1989,26 @@
             "Science-fiction"
         ],
         "acteur": [
-            "Daisy Ridley",
-            "Adam Driver",
-            "John Boyega",
-            "Oscar Isaac",
-            "Ian McDiarmid"
+            {
+                "nom": "Daisy Ridley",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daisy_Ridley_Our_Movie_Guide_2024.png/500px-Daisy_Ridley_Our_Movie_Guide_2024.png"
+            },
+            {
+                "nom": "Adam Driver",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Adam_Driver.jpg/500px-Adam_Driver.jpg"
+            },
+            {
+                "nom": "John Boyega",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/John_Boyega_by_Gage_Skidmore.jpg/500px-John_Boyega_by_Gage_Skidmore.jpg"
+            },
+            {
+                "nom": "Oscar Isaac",
+                "lien":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Oscar_Isaac_at_82nd_Venice_International_Film_Festival-1_%28cropped%29.jpg/500px-Oscar_Isaac_at_82nd_Venice_International_Film_Festival-1_%28cropped%29.jpg"
+            },
+            {
+                "nom": "Ian McDiarmid",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ian_McDiarmid_%2853604450304%29.jpg/500px-Ian_McDiarmid_%2853604450304%29.jpg"
+            }
         ]
     },
     {
