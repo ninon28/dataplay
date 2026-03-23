@@ -205,10 +205,6 @@
                 "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mads_Mikkelsen_at_82nd_Venice_International_Film_Festival_%28cropped%29.jpg/500px-Mads_Mikkelsen_at_82nd_Venice_International_Film_Festival_%28cropped%29.jpg"
             },
             {
-                "nom": "Thomas Bo Larsen",
-                "lien": ""
-            },
-            {
                 "nom": "Magnus Millang",
                 "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Magnus_Millang.jpg/500px-Magnus_Millang.jpg"
             },
@@ -307,10 +303,6 @@
             {
                 "nom": "Tony Leung",
                 "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tony_Leung_Chiu_Wai_%28Berlin_Film_Festival_2013%29_2_%28cropped%29.jpg/500px-Tony_Leung_Chiu_Wai_%28Berlin_Film_Festival_2013%29_2_%28cropped%29.jpg"
-            },
-            {
-                "nom": "Meng'er Zhang",
-                "lien": ""
             },
             {
                 "nom": "Michelle Yeoh",
@@ -642,10 +634,6 @@
             {
                 "nom": "Chinmay Mandlekar",
                 "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Sukhada_Yash%2C_Chinmay_Mandlekar%2C_Sunil_Khosla_at_Marathi_film_%27Gajaar_-_Journey_Of_The_Soul%27_%2819%29.jpg/500px-Sukhada_Yash%2C_Chinmay_Mandlekar%2C_Sunil_Khosla_at_Marathi_film_%27Gajaar_-_Journey_Of_The_Soul%27_%2819%29.jpg"
-            },
-            {
-                "nom": "Bhasha Sumbli",
-                "lien": ""
             }
         ]
     },
@@ -703,7 +691,7 @@
             },
             {
                 "nom": "Brian Tyree Henry",
-                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Xochitl_Gomez_in_2022_3.jpg/500px-Xochitl_Gomez_in_2022_3.jpg"
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Brian_Tyree_Henry_by_Gage_Skidmore_2.jpg/500px-Brian_Tyree_Henry_by_Gage_Skidmore_2.jpg"
             }
             
         ]
@@ -1158,8 +1146,8 @@
         "acteur": [
             
             {
-                "nom": "Cailee Spaenyl",
-                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Paul_Mescal_at_the_Toronto_International_Film_Festival_in_2025_2_%28cropped_2%29.jpg/500px-Paul_Mescal_at_the_Toronto_International_Film_Festival_in_2025_2_%28cropped_2%29.jpg"
+                "nom": "Cailee Spaeny",
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cailee_Spaeny_TIFF_2025_2_%28cropped%29.jpg/500px-Cailee_Spaeny_TIFF_2025_2_%28cropped%29.jpg"
             },
             {
                 "nom": "David Jonsson",
@@ -1175,7 +1163,7 @@
             },
             {
                 "nom": "Joseph Quinn",
-                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ian_Holm_%28cropped%29.jpg/500px-Ian_Holm_%28cropped%29.jpg"
+                "lien": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Joseph_Quinn_by_Gage_Skidmore.jpg/500px-Joseph_Quinn_by_Gage_Skidmore.jpg"
             }
         ]
     },
