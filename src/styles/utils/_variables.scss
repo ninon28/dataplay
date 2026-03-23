@@ -6,4 +6,4 @@ $color-grey--transparent3: rgba(225, 225, 225, 0.3);
 $color-pink: #FF3C7A;
 
 $font-p: 20px;
-$font-h2: 36px;
+$font-h2: clamp(1.25rem, 0.8382rem + 1.8824vw, 2.25rem);

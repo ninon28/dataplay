@@ -4,7 +4,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,9 @@ img {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: clamp(1.25rem, 0.8382rem + 1.8824vw, 2.25rem);
+  font-weight: 400;
+  margin-bottom: 63px;
 }
 
 .container {
@@ -44,7 +46,9 @@ h2 {
 }
 .hero__text {
   max-width: 800px;
-  margin: 0 auto;
+  font-size: clamp(1.25rem, 0.8382rem + 1.8824vw, 2.25rem);
+  font-weight: 400;
+  margin-bottom: 63px;
 }
 
 .selector {
