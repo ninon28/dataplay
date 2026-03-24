@@ -362,7 +362,6 @@ const filterDisplay = document.querySelector("#filter-display");
 
 let dataFilms = [];
 
-// 2. Fetch du JSON
 fetch("assets/data.json")
     .then(response => response.json())
     .then(data => {
@@ -371,36 +370,15 @@ fetch("assets/data.json")
     })
     .catch(error => console.error('Erreur au chargement du JSON:', error));
 
-// 3. Logique du bouton "Genre"
-btnGenre.addEventListener("click", function() {
-    filterDisplay.innerHTML = "";
-
-    const tousLesGenres = dataFilms.flatMap(film => film.genre);
-    const genresUniques = [...new Set(tousLesGenres)].sort();
-
-    const select = document.createElement("select");
-    select.id = "genre-select";
-
-    const defaultOpt = document.createElement("option");
-    defaultOpt.textContent = "Choisissez un genre de film";
-    select.appendChild(defaultOpt);
-
-    genresUniques.forEach(genre => {
-        const option = document.createElement("option");
-        option.value = genre;
-        option.textContent = genre;
-        select.appendChild(option);
-    });
-
-    filterDisplay.appendChild(select);
-});
-
+const diagramContainer = document.querySelector("#diagram-container");
+const mainSelectGenre = document.querySelector(".select__list");
 
 function afficherDiagramme(filmsFiltres) {
-    const container = document.querySelector("#diagram-container");
     const template = document.querySelector("#bar-template");
 
-    container.innerHTML = ""; 
+    if (!diagramContainer || !template) return;
+
+    diagramContainer.innerHTML = ""; 
 
     const anneeDebut = 2000;
     const anneeFin = 2025;
@@ -410,14 +388,14 @@ function afficherDiagramme(filmsFiltres) {
         comptageParAnnee[film.date] = (comptageParAnnee[film.date] || 0) + 1;
     });
     
-    const maxFilms = Math.max(...Object.values(comptageParAnnee), 1);
+    const scores = Object.values(comptageParAnnee);
+    const maxFilms = scores.length > 0 ? Math.max(...scores) : 1;
 
     for (let annee = anneeDebut; annee <= anneeFin; annee++) {
         const nbFilms = comptageParAnnee[annee] || 0;
         const pourcentage = (nbFilms / maxFilms) * 100;
 
         const clone = template.content.cloneNode(true);
-
         clone.querySelector(".bar-year").textContent = annee;
         
         const barFill = clone.querySelector(".bar-fill");
@@ -430,17 +408,18 @@ function afficherDiagramme(filmsFiltres) {
             countSpan.remove(); 
         }
 
-        container.appendChild(clone);
+        diagramContainer.appendChild(clone);
     }
 }
 
-document.addEventListener("change", function(event) {
-    if (event.target && event.target.id === "genre-select") {
+if (mainSelectGenre) {
+    mainSelectGenre.addEventListener("change", function(event) {
         const genreChoisi = event.target.value;
-        
-        const filmsFiltres = dataFilms.filter(f => f.genre.includes(genreChoisi));
+        const filmsFiltres = allFilms.filter(f => 
+            f.genre.some(g => g.toLowerCase() === genreChoisi.toLowerCase())
+        );
         
         afficherDiagramme(filmsFiltres);
-    }
-});
+    });
+}
 // fin de la partie de Dylan //
