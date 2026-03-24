@@ -284,7 +284,8 @@
         "film": "Le Seigneur des Anneaux, La Communauté de l'Anneau",
         "date": 2001,
         "genre": [
-            "Heroic Fantasy",
+            "Fantaisie",
+            "Héroique",
             "Aventure"
         ],
         "acteur": [
@@ -635,7 +636,8 @@
         "film": "Le Seigneur des Anneaux, Les deux Tours",
         "date": 2002,
         "genre": [
-            "Heroic Fantasy",
+            "Héroique",
+            "Fantaisie",
             "Aventure"
         ],
         "acteur": [
@@ -839,8 +841,8 @@
         "film": "Harry Potter et la Chambre des Secrets",
         "date": 2002,
         "genre": [
-            "Fantasy",
-            "Heroic Fantasy"
+            "Fantaisie",
+            "Héroique"
         ],
         "acteur": [
             {
@@ -989,9 +991,10 @@
         "film": "Le Seigneur des Anneaux, Le retour du Roi",
         "date": 2003,
         "genre": [
-            "Heroic Fantasy",
+            "Fantaisie",
+            "Héroique",
             "Aventure",
-            "Dark fantasy"
+            "Fantaisie"
         ],
         "acteur": [
             {
@@ -1455,7 +1458,7 @@
         "date": 2004,
         "genre": [
             "Fantastique",
-            "Dark fantasy"
+            "Fantaisie"
         ],
         "acteur": [
             {
@@ -2103,7 +2106,7 @@
     "film": "Le Labyrinthe de Pan",
     "date": 2006,
     "genre": [
-        "Dark fantasy",
+        "Fantaisie",
         "Drame",
         "Horreur",
         "Historique",
@@ -2412,7 +2415,7 @@
     "film": "Harry Potter et l'Ordre du Phénix",
     "date": 2007,
     "genre": [
-        "Fantasy"
+        "Fantaisie"
     ],
     "acteur": [
         {
@@ -2949,7 +2952,7 @@
         "film": "Harry Potter et le Prince de sang-mêlé",
         "date": 2009,
         "genre": [
-            "Fantasy"
+            "Fantaisie"
         ],
         "acteur": [
             {
@@ -3214,7 +3217,7 @@
         "date": 2010,
         "genre": [
             "Drame",
-            "Biographie"
+            "Biographique"
         ],
         "acteur": [
             {
@@ -3258,7 +3261,7 @@
         "film": "Harry Potter et les reliques de la mort - 1ère partie",
         "date": 2010,
         "genre": [
-            "Fantasy"
+            "Fantaisie"
         ],
         "acteur": [
             {
@@ -3362,7 +3365,7 @@
         "film": "Harry Potter et les reliques de la mort - 2ème partie",
         "date": 2011,
         "genre": [
-            "Fantasy"
+            "Fantaisie"
         ],
         "acteur": [
             {
@@ -3728,7 +3731,7 @@
         "film": "Le Hobbit: un voyage inattendu",
         "date": 2012,
         "genre": [
-            "Fantasy"
+            "Fantaisie"
         ],
         "acteur": [
             {
@@ -6202,7 +6205,7 @@
     {
         "film": "Don't Look Up",
         "date": 2021,
-        "genre": ["Comedie", "Science-fiction"],
+        "genre": ["Comédie", "Science-fiction"],
         "acteur": [
             {
                 "nom": "Leonardo DiCaprio",
@@ -6221,7 +6224,7 @@
     {
         "film": "Shang-Chi",
         "date": 2021,
-        "genre": ["Action", "Super-heros", "Fantastique"],
+        "genre": ["Action", "Super-héros", "Fantastique"],
         "acteur": [
             {
                 "nom": "Simu Liu",
@@ -6279,7 +6282,7 @@
     {
         "film": "Free Guy",
         "date": 2021,
-        "genre": ["Comedie", "Action", "Science-fiction"],
+        "genre": ["Comédie", "Action", "Science-fiction"],
         "acteur": [
             {
                 "nom": "Ryan Reynolds",
