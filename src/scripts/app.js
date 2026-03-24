@@ -300,7 +300,7 @@ btnValiderAnnee.addEventListener('click', function(){
 
     yearSearchGenre.forEach(function(genre) {
         if (statsGenre[genre]) {
-            statsGenre[genre] + 1; 
+            statsGenre[genre] += 1; 
         } else {
             statsGenre[genre] = 1; 
         }
@@ -308,10 +308,50 @@ btnValiderAnnee.addEventListener('click', function(){
 
     console.log(statsGenre, statsActeur)
 
-    
+    let tableauActeurs = Object.values(statsActeur); 
 
+    tableauActeurs.sort(function(a, b) {
+        return b.score - a.score;
+    });
 
+    let topActeurs = tableauActeurs.slice(0, 4);
 
-})
+    const containerActeurs = document.querySelector('.boite__acteur'); 
+    containerActeurs.innerHTML = "";
+
+    topActeurs.forEach(function(acteur) {
+        console.log("Objet acteur complet :", acteur); 
+        
+        containerActeurs.innerHTML += `
+            <div class="result-block__item">
+                <img src="${acteur.image}" alt="${acteur.nom}">
+            </div>
+        `;
+
+    });
+
+    let topGenres = Object.entries(statsGenre);
+
+    topGenres.sort(function(a, b) {
+        return b[1] - a[1];
+    });
+
+    const maxScoreGenre = topGenres[0][1];
+
+    const infoGenres = document.querySelector('.boite__genre');
+    infoGenres.innerHTML = "";
+
+    topGenres.slice(0, 4).forEach(function(unGenre) {
+        const pourcentage = (unGenre[1] / maxScoreGenre * 100);
+        
+        infoGenres.innerHTML += `
+            <div class="result-block__item stat-item" style="--progress: ${pourcentage}%">
+                <span class="stat-name">${unGenre[0]}</span>
+                <span class="stat-count">${unGenre[1]}</span>
+            </div>
+        `;
+    });
+
+});
 
 
