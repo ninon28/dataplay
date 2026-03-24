@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet DataPlay</title>
     
@@ -16,168 +17,185 @@
     <meta property="og:image:height" content="630">
 
     <link rel="stylesheet" href="./styles/app.css">
-    <script src="../dist/scripts/app.js" defer></script>
+    <script src="scripts/app.js" defer></script>
 
 </head>
 <body>
-  <div class="container">
-
-  
-
-  <header class="hero">
-    <div class="hero__logo-container">
-      <img src="assets/images/logo.svg" alt="REMATCH-REWATCH" class="hero__logo">
-    </div>
     
-    <h2 class="hero__text">Votre site idéal pour visualiser les liens entre les tops 10 du nombres
-     de votes par live action chaque année depuis 2000.</h2>
+    <header class="hero">
 
-      <nav class="hero__nav selector">
-          <ul class="selector__list">
-            <li class="selector__item selector__item--active">ACTEUR</li>
-            <li class="selector__item">GENRE</li>
-            <li class="selector__item">ANNÉE</li>
-          </ul>
-      </nav>
+        <div class="hero__logo-container">
+            <img src="assets/images/logo.svg" alt="REMATCH-REWATCH" class="hero__logo">
+        </div>
+        
+        <h2 class="hero__text">Votre site idéal pour visualiser les liens entre les tops 10 du nombres de votes par live action chaque année depuis 2000.</h2>
+
+        <nav class="hero__nav selector">
+
+            <ul class="selector__list">
+
+                <li class="selector__item selector__actor">Acteur</li>
+                <li class="selector__item selector__genre">Genre</li>
+                <li class="selector__item selector__year">Année</li>
+
+            </ul>
+
+        </nav>
+
   </header>
 
 <main class="main">
 
-<section id="section-genre" class="section-genre">
+    <section id="section-genre" class="section-genre genre">
 
-  <section class="main__filters">
-    <div class="select__element">
-      <select class="select__list">
+        <section class="main__filters block">
+            <div class="select__element">
+            <select class="select__list">
 
-      <option value="" disabled selected>Choisir un genre dominant</option>
-        <option class="select__item" value="action">Action</option>
-        <option class="select__item" value="drame">Drame</option>
-        <option class="select__item" value="comedie">Comédie</option>
-        <option class="select__item" value="thriller">Thriller</option>
-          </select> 
-          <button class="main__reset">Réinitialiser</button>
-     </div>
-     </section>
- 
- <section class="content">
-  
-  <div class="result-block result-block--line">
-    <div class="result-block__list result-block__list--left">
-      <div class="result-block__item">2001</div>
-      <div class="result-block__item">2002</div>
-      <div class="result-block__item">2003</div>
-      <div class="result-block__item">2004</div>
-    </div>
+            <option value="" disabled selected>Choisir un genre dominant</option>
+                <option class="select__item" value="action">Action</option>
+                <option class="select__item" value="drame">Drame</option>
+                <option class="select__item" value="comedie">Comédie</option>
+                <option class="select__item" value="thriller">Thriller</option>
+                </select> 
+                <button class="main__reset">Réinitialiser</button>
+            </div>
+        </section>
+    
+        <section class="content">
+    
+            <div class="result-block result-block--line">
+                <div class="result-block__list result-block__list--left">
+                <div class="result-block__item">2001</div>
+                <div class="result-block__item">2002</div>
+                <div class="result-block__item">2003</div>
+                <div class="result-block__item">2004</div>
+                </div>
 
-    <div class="result-block__text">
-      <p class="result-block__title">Les années où le plus de films du genre dominant sont sortis.</p>
-    </div>
-  </div>
+                <div class="result-block__text">
+                <p class="result-block__title">Les années où le plus de films du genre dominant sont sortis.</p>
+                </div>
+            </div>
 
-  <div class="result-block result-block--right">
-    <div class="result-block__list">
-      <div class="result-block__item">
-        <img src="assets/images/millie-bobby-brown.svg" alt="millie-bobby-brown">
-      </div>
-      <div class="result-block__item">
-        <img src="assets/images/acteur.svg" alt="acteur">
-      </div>
-      <div class="result-block__item">
-        <img src="assets/images/actrice.svg" alt="actrice">
-      </div>
-      <div class="result-block__item">
-        <img src="assets/images/avteur-2.svg" alt="acteur 2">
-      </div>
-    </div>
+            <div class="result-block result-block--right">
+                <div class="result-block__list">
+                <div class="result-block__item">
+                    <img src="assets/images/millie-bobby-brown.svg" alt="millie-bobby-brown">
+                </div>
+                <div class="result-block__item">
+                    <img src="assets/images/acteur.svg" alt="acteur">
+                </div>
+                <div class="result-block__item">
+                    <img src="assets/images/actrice.svg" alt="actrice">
+                </div>
+                <div class="result-block__item">
+                    <img src="assets/images/avteur-2.svg" alt="acteur 2">
+                </div>
+                </div>
 
-    <div class="result-block__text">
-      <p class="result-block__title">Les acteurs qui ont le plus joués dans le genre dominant.</p>
-    </div>
-  </div>
-  
-</section>
+                <div class="result-block__text">
+                <p class="result-block__title">Les acteurs qui ont le plus joués dans le genre dominant.</p>
+                </div>
+            </div>
+            
+        </section>
 
-<section id="section-acteur">
-  <section class="main__filters">
-    <div class="select__element">
-      <label>Cherchez un acteur...</label>
-      <input type="text" id="search-actor" class="search__input">
-      <button class="main__reset">Réinitialiser</button>
-    </div>
-  </section>
+    </section>
 
- <section class="content">
-  <div class="result-block result-block--line">
-    <div class="result-block__list result-block__list--left">
-      <div class="result-block__item">2005</div>
-      <div class="result-block__item">2006</div>
-      <div class="result-block__item">2007</div>
-      <div class="result-block__item">2008</div>
-    </div>
-    <div class="result-block__text">
-      <p class="result-block__title">Les années où le plus de films de l'acteur choisis sont sortis.</p>
-    </div>
-  </div>
+    <section id="section-acteur" class="actor">
 
-  <div class="result-block result-block--opposite">
-    <div class="result-block__list ">
-      <div class="result-block__item">Action</div>
-      <div class="result-block__item">Thriller</div>
-      <div class="result-block__item">Apocalypse</div>
-      <div class="result-block__item">Historique</div>
-    </div>
-    <div class="result-block__text">
-      <p class="result-block__title">Les genres dominants dans lesquels l'acteur choisi a le plus joué.</p>
-    </div>
-  </div>
- </section>
+        <section class="main__filters" class="actor__search block">
+            <div class="select__element">
+                <label>Cherchez un acteur...</label>
+                <input type="search" id="search-actor" class="search__input">
 
-</section>
+                <ul id="suggestions" class="suggestions-list"></ul>
 
-<section id="section-annee">
-  <section class="main__filters">
-    <div class="select__element">
-      <label>Cherchez une année...</label>
-      <input type="text" id="search-year" class="search__input">
-      <button class="main__reset">Réinitialiser</button>
-    </div>
-  </section>
+                <button class="main__reset btn__valider">Search</button>
+            </div>
+        </section>
 
-<section class="content">
-  <div class="result-block result-block--line">
-    <div class="result-block__list result-block__list--left">
-      <div class="result-block__item">Action</div>
-      <div class="result-block__item">Thriller</div>
-      <div class="result-block__item">Apocalypse</div>
-      <div class="result-block__item">Historique</div>
-    </div>
-    <div class="result-block__text">
-      <p class="result-block__title">Les genres dominants dans lesquels l'acteur choisi a le plus joué.</p>
-    </div>
-  </div>
 
-    <div class="result-block result-block--right">
-      <div class="result-block__list">
-        <div class="result-block__item">
-          <img src="assets/images/millie-bobby-brown.svg" alt="millie-bobby-brown"></div>
+        <section class="content">
 
-        <div class="result-block__item">
-          <img src="assets/images/acteur.svg" alt="acteur"></div>
+            <!-- <div class="actor__date"></div>
 
-        <div class="result-block__item">
-          <img src="assets/images/actrice.svg" alt="actrice"></div>
+            <div class="actor__genre"></div> -->
 
-        <div class="result-block__item">
-          <img src="assets/images/avteur-2.svg" alt="acteur 2"></div>
-    </div>
-      <div class="result-block__text">
-      <p class="result-block__title">Les acteurs qui ont le plus joués dans le genre dominant.</p>
-      </div>
-  </div>
 
- </section>
+            <div class="result-block result-block--line">
 
-</section>
+                <div class="result-block__list result-block__list--left"></div>
+
+                <div class="result-block__text">
+                    <p class="result-block__title">Les années où le plus de films de l'acteur choisis sont sortis.</p>
+                </div>
+                
+            </div>
+
+            <div class="result-block result-block--opposite">
+
+            <div class="result-block__list "></div>
+            <div class="result-block__text">
+                <p class="result-block__title">Les genres dominants dans lesquels l'acteur choisi a le plus joué.</p>
+            </div>
+
+            </div>
+        </section>
+
+    </section>
+
+    <section id="section-annee" class="year">
+
+        <section class="main__filters">
+
+            <div class="select__element">
+                <label>Cherchez une année...</label>
+                <input type="text" id="search-year" class="search__input">
+                <button class="main__reset">Réinitialiser</button>
+            </div>
+
+        </section>
+
+        <section class="content">
+        <div class="result-block result-block--line">
+        <div class="result-block__list result-block__list--left">
+            <div class="result-block__item">Action</div>
+            <div class="result-block__item">Thriller</div>
+            <div class="result-block__item">Apocalypse</div>
+            <div class="result-block__item">Historique</div>
+        </div>
+        <div class="result-block__text">
+            <p class="result-block__title">Les genres dominants dans lesquels l'acteur choisi a le plus joué.</p>
+        </div>
+        </div>
+
+        <div class="result-block result-block--right">
+        <div class="result-block__list">
+            <div class="result-block__item">
+            <img src="assets/images/millie-bobby-brown.svg" alt="millie-bobby-brown">
+            </div>
+
+            <div class="result-block__item">
+            <img src="assets/images/acteur.svg" alt="acteur">
+            </div>
+
+            <div class="result-block__item">
+            <img src="assets/images/actrice.svg" alt="actrice">
+            </div>
+
+            <div class="result-block__item">
+            <img src="assets/images/avteur-2.svg" alt="acteur 2">
+            </div>
+        </div>
+        <div class="result-block__text">
+            <p class="result-block__title">Les acteurs qui ont le plus joués dans le genre dominant.</p>
+        </div>
+        </div>
+
+        </section>
+
+    </section>
 
 </main>
 
