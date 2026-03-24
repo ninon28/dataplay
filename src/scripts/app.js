@@ -66,11 +66,11 @@ fetch ('assets/data.json')
             
                 // le ! c'est pour dire l'inverse, donc if not includes le nom => alors on push le nom de l'acteur
                 allActors.push(myActor.nom);
-                console.log(allActors)
 
             }
         })
     })
+
 });
 
 
@@ -94,7 +94,6 @@ search.addEventListener('input', function(){
 
     // filtrer la liste pr garder que les acteurs qui ont les mêmes lettres 
     let suggestions = allActors.filter(function(nom) {
-        console.log(nom);
         return nom.toLowerCase().includes(userSearch);
     });
 
@@ -169,8 +168,6 @@ btnValider.addEventListener('click', function() {
                 statsGenres[unGenre] = 1;
             }
 
-            console.log(statsGenres);
-
         });
         
     });
@@ -225,9 +222,96 @@ const tableauYear = [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009,
 
 tableauYear.forEach(function(ligneDuTemps){
 
-    yearItem = document.createElement('li');
+    const yearItem = document.createElement('li');
     yearItem.classList.add("year__item");
     yearItem.textContent = ligneDuTemps;
 
+    yearItem.addEventListener('click', function() {
+
+        this.classList.toggle("year__item--active");
+
+    });
+
     listeDesAnnees.appendChild(yearItem);
+
+});
+
+const btnValiderAnnee = document.querySelector('.year .btn__valider--year');
+
+
+btnValiderAnnee.addEventListener('click', function(){
+
+    const choixUserYear = document.querySelectorAll('.year__item--active');
+    
+    let listeChoix = [];
+
+    choixUserYear.forEach(function(item) {
+        listeChoix.push(item.textContent);
+    });
+
+    const filmsTrouves = allFilms.filter(function(unFilm) {
+        let yearInText = unFilm.date.toString();
+
+        return listeChoix.includes(yearInText);
+
+    });
+
+    console.log(filmsTrouves);
+
+    let yearSearchActor = [];
+    let yearSearchGenre = [];
+
+
+    filmsTrouves.forEach(function(donneesYear){
+
+        donneesYear.acteur.forEach(function(nomActeur) {
+            yearSearchActor.push(nomActeur);
+        });
+
+        donneesYear.genre.forEach(function(nomGenre) {
+            yearSearchGenre.push(nomGenre);
+        });
+
+
+    });
+
+    // là c exactement pareil que dans la boucle au dessus 
+
+    let statsActeur = {};
+
+    yearSearchActor.forEach(function(acteurJson) {
+
+        let nom = acteurJson.nom; 
+
+        if (statsActeur[nom]) {
+            // ça c si l'acteur est deja dans la liste bah on rajoute + 1 au nbr de fois ou il apparait
+            statsActeur[nom].score++;
+        } else {
+            // si l'acteur est nv on garde toutes les infos
+            statsActeur[nom] = {
+                nom: nom,
+                image: acteurJson.image,
+                score: 1
+            };
+        }
+    });
+
+    let statsGenre = {};
+
+    yearSearchGenre.forEach(function(genre) {
+        if (statsGenre[genre]) {
+            statsGenre[genre] + 1; 
+        } else {
+            statsGenre[genre] = 1; 
+        }
+    });
+
+    console.log(statsGenre, statsActeur)
+
+    
+
+
+
 })
+
+

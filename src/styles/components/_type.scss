@@ -98,31 +98,6 @@ h2 {
   }
 }
 
-// .block {
-//     display:none !important;
-// }
-// .actor.block--show .block{
-//     display: block !important;
-// }
-
-
-
-// .stat-bar-container {  
-//     height: 20px;           
-//     margin: 5px 0;
-//     width: 50%;
-// }
-
-// .stat-bar-fill {
-//     background-color: #ed44f0;    
-//     height: 100%;            
-// }
-
-
-
-
-
-
 .main__filters {
   display: flex;
   justify-content: center;
@@ -338,7 +313,6 @@ h2 {
 }
 
 
-
 @media (min-width: 900px){
   .section-genre{
     display: flex;
@@ -392,6 +366,13 @@ h2 {
   }
 }
 
+
+
+
+
+.year__item--active {
+  color:pink;
+}
 
 
 
