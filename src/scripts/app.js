@@ -290,7 +290,7 @@ btnValiderAnnee.addEventListener('click', function(){
             // si l'acteur est nv on garde toutes les infos
             statsActeur[nom] = {
                 nom: nom,
-                image: acteurJson.image,
+                image: acteurJson.lien,
                 score: 1
             };
         }
@@ -320,7 +320,6 @@ btnValiderAnnee.addEventListener('click', function(){
     containerActeurs.innerHTML = "";
 
     topActeurs.forEach(function(acteur) {
-        console.log("Objet acteur complet :", acteur); 
         
         containerActeurs.innerHTML += `
             <div class="result-block__item">
@@ -366,7 +365,6 @@ fetch("assets/data.json")
     .then(response => response.json())
     .then(data => {
         dataFilms = data;
-        console.log("Données chargées :", dataFilms);
     })
     .catch(error => console.error('Erreur au chargement du JSON:', error));
 
