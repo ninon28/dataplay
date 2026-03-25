@@ -15,6 +15,38 @@ img{
   width: 100%;
 }
 
+.title{
+  color: $color-pink;
+  font-size: clamp(9.375rem, -2.6rem + 47.9vw, 39.3125rem);
+  line-height: 0.8;
+  margin: 0;
+
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2%;
+  }
+}
+
+.titleTop{
+    color: $color-grey;
+    font-size: clamp(2.235625rem, -3.6201rem + 23.423vw, 16.875rem);
+}
+
+.titleBottom{
+    color: $color-darkGrey;
+    font-size: clamp(2.235625rem, -3.6201rem + 23.423vw, 16.875rem);
+}
+
 h2 { 
   font-size: $font-h2; 
   font-weight: 400;
@@ -32,19 +64,10 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px 0 20px;
 
   &__logo-container {
-    max-width: 1100px; 
-    margin: 0 auto 40px; 
     display: flex;
     justify-content: center;
-  }
-
-  &__logo {
-    width: 100%; 
-    height: auto; 
-    display: block; 
   }
 
   &__text {
@@ -324,6 +347,10 @@ h2 {
     .select__element {
       flex-direction: row;
     }
+  }
+
+  .hero__logo-container{
+    margin: 0 20px;
   }
 
   .content {
