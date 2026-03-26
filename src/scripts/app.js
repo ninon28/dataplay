@@ -423,10 +423,11 @@ if (mainSelectGenre) {
 // fin de la partie de Dylan //
 
 /* Nouveau test de dylan on prie svp */
+
 const selectGenre = document.querySelector(".select__list");
 const diagramContainer = document.querySelector("#diagram-container");
 const top4AnneesContainer = document.querySelector('#section-genre .result-block__list--left');
-
+const containerPhotosActeurs = document.querySelector('#section-genre .result-block--right .result-block__list');
 
 function afficherTop4Annees(comptageParAnnee) {
     if (!top4AnneesContainer) return;
@@ -442,12 +443,11 @@ function afficherTop4Annees(comptageParAnnee) {
         const annee = item[0];
         const nbFilms = item[1];
         const pourcentage = (nbFilms / maxFilms) * 100;
+        
         const divItem = document.createElement("div");
-
         divItem.classList.add("result-block__item");
         divItem.style.setProperty("--progress", pourcentage + "%");
 
-    
         const spanTexte = document.createElement("span");
         spanTexte.textContent = annee + " (" + nbFilms + " films)";
 
@@ -456,6 +456,37 @@ function afficherTop4Annees(comptageParAnnee) {
     });
 }
 
+function afficherTop4ActeursGenre(filmsFiltres) {
+    if (!containerPhotosActeurs) return;
+
+    const statsActeurs = {};
+    filmsFiltres.forEach(film => {
+        film.acteur.forEach(act => {
+            if (!statsActeurs[act.nom]) {
+                statsActeurs[act.nom] = { nom: act.nom, img: act.lien || act.image, count: 0 };
+            }
+            statsActeurs[act.nom].count++;
+        });
+    });
+
+    const top4 = Object.values(statsActeurs)
+        .sort((a, b) => b.count - a.count)
+        .slice(0, 4);
+
+    containerPhotosActeurs.innerHTML = "";
+
+    top4.forEach(acteur => {
+        const divItem = document.createElement("div");
+        divItem.classList.add("result-block__item");
+
+        const img = document.createElement("img");
+        img.src = acteur.img || "assets/images/acteur.svg";
+        img.alt = acteur.nom;
+
+        divItem.appendChild(img);
+        containerPhotosActeurs.appendChild(divItem);
+    });
+}
 
 function afficherDiagrammeChronologique(filmsFiltres) {
     const template = document.querySelector("#bar-template");
@@ -479,7 +510,6 @@ function afficherDiagrammeChronologique(filmsFiltres) {
     }
 }
 
-
 setTimeout(() => {
     if (selectGenre && allFilms.length > 0) {
         const genres = [...new Set(allFilms.flatMap(f => f.genre))].sort();
@@ -495,9 +525,9 @@ setTimeout(() => {
             const filtres = allFilms.filter(f => f.genre.includes(genreChoisi));
             const stats = {};
             filtres.forEach(f => stats[f.date] = (stats[f.date] || 0) + 1);
-
             afficherTop4Annees(stats);
             afficherDiagrammeChronologique(filtres);
+            afficherTop4ActeursGenre(filtres);
         });
     }
 }, 500);
