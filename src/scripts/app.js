@@ -198,22 +198,21 @@ btnValider.addEventListener('click', function() {
     infoGenres.innerHTML = "";
     topGenres.forEach(function(unGenre){
         const pourcentage = (unGenre[1] / maxScoreGenre * 100);
+        // On regroupe les infos dans un seul span avec " films"
         infoGenres.innerHTML += `
             <div class="result-block__item stat-item" style="--progress: ${pourcentage}%">
-                <span class="stat-name">${unGenre[0]}</span>
-                <span class="stat-count">${unGenre[1]}</span>
+                <span>${unGenre[0]} (${unGenre[1]} films)</span>
             </div>
         `;
-
     });
 
     infoDates.innerHTML = "";
     topDates.forEach(function(uneDate) {
         const pourcentage = (uneDate[1] / maxScoreDate * 100);
+        // Pareil ici, on fusionne dans un seul span
         infoDates.innerHTML += `
             <div class="result-block__item stat-item" style="--progress: ${pourcentage}%">
-                <span class="stat-name">${uneDate[0]}</span>
-                <span class="stat-count">${uneDate[1]}</span>
+                <span>${uneDate[0]} (${uneDate[1]} films)</span>
             </div>
         `;
     });
