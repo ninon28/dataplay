@@ -371,6 +371,10 @@ h2 {
   .main__filters {
     .select__element {
       flex-direction: row;
+
+      &--column{
+        flex-direction: column;
+      }
     }
   }
 
