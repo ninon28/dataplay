@@ -91,6 +91,7 @@ h2 {
   margin-top: 40px;
   display: flex;
   justify-content: center;
+  z-index: 10;
 
   &__list {
     display: flex;
@@ -222,7 +223,6 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    z-index: -1;
 
     &--left{
       align-items: end;
@@ -326,7 +326,6 @@ h2 {
  .footer{
   background-color: $color-black;
   text-align: center;
-  z-index: -1;
   margin-top: 150px;
 
   &__logo-container{
