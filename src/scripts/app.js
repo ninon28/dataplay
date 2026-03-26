@@ -355,72 +355,7 @@ btnValiderAnnee.addEventListener('click', function(){
 
 // Partie de Dylan //
 
-//ici ce sont mes boutons mais il y a que le "genre" qui marche et c'est normal //
 
-/* const filterDisplay = document.querySelector("#filter-display");
-
-let dataFilms = [];
-
-fetch("assets/data.json")
-    .then(response => response.json())
-    .then(data => {
-        dataFilms = data;
-    })
-    .catch(error => console.error('Erreur au chargement du JSON:', error));
-
-const diagramContainer = document.querySelector("#diagram-container");
-const mainSelectGenre = document.querySelector(".select__list");
-
-function afficherDiagramme(filmsFiltres) {
-    const template = document.querySelector("#bar-template");
-
-    if (!diagramContainer || !template) return;
-
-    diagramContainer.innerHTML = ""; 
-
-    const anneeDebut = 2000;
-    const anneeFin = 2025;
-
-    const comptageParAnnee = {};
-    filmsFiltres.forEach(film => {
-        comptageParAnnee[film.date] = (comptageParAnnee[film.date] || 0) + 1;
-    });
-    
-    const scores = Object.values(comptageParAnnee);
-    const maxFilms = scores.length > 0 ? Math.max(...scores) : 1;
-
-    for (let annee = anneeDebut; annee <= anneeFin; annee++) {
-        const nbFilms = comptageParAnnee[annee] || 0;
-        const pourcentage = (nbFilms / maxFilms) * 100;
-
-        const clone = template.content.cloneNode(true);
-        clone.querySelector(".bar-year").textContent = annee;
-        
-        const barFill = clone.querySelector(".bar-fill");
-        barFill.style.width = pourcentage + "%"; 
-
-        const countSpan = clone.querySelector(".bar-count");
-        if (nbFilms > 0) {
-            countSpan.textContent = nbFilms;
-        } else {
-            countSpan.remove(); 
-        }
-
-        diagramContainer.appendChild(clone);
-    }
-}
-
-if (mainSelectGenre) {
-    mainSelectGenre.addEventListener("change", function(event) {
-        const genreChoisi = event.target.value;
-        const filmsFiltres = allFilms.filter(f => 
-            f.genre.some(g => g.toLowerCase() === genreChoisi.toLowerCase())
-        );
-        
-        afficherDiagramme(filmsFiltres);
-    });
-} */
-// fin de la partie de Dylan //
 
 /* Nouveau test de dylan on prie svp */
 const selectGenre = document.querySelector(".select__list");
