@@ -361,7 +361,8 @@ btnValiderAnnee.addEventListener('click', function(){
 const selectGenre = document.querySelector(".select__list");
 const diagramContainer = document.querySelector("#diagram-container");
 const top4AnneesContainer = document.querySelector('#section-genre .result-block__list--left');
-
+const top4ActeursContainer = document.querySelector('#section-genre .result-block--right .result-block__list');
+/**reprendre ici pour ma part trop crevé */
 
 function afficherTop4Annees(comptageParAnnee) {
     if (!top4AnneesContainer) return;
