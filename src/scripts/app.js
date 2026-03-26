@@ -357,7 +357,7 @@ btnValiderAnnee.addEventListener('click', function(){
 
 //ici ce sont mes boutons mais il y a que le "genre" qui marche et c'est normal //
 
-const filterDisplay = document.querySelector("#filter-display");
+/* const filterDisplay = document.querySelector("#filter-display");
 
 let dataFilms = [];
 
@@ -419,5 +419,85 @@ if (mainSelectGenre) {
         
         afficherDiagramme(filmsFiltres);
     });
-}
+} */
 // fin de la partie de Dylan //
+
+/* Nouveau test de dylan on prie */
+const selectGenre = document.querySelector(".select__list");
+const diagramContainer = document.querySelector("#diagram-container");
+const top4AnneesContainer = document.querySelector('#section-genre .result-block__list--left');
+
+
+function afficherTop4Annees(comptageParAnnee) {
+    if (!top4AnneesContainer) return;
+    
+    let top4 = Object.entries(comptageParAnnee)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 4);
+
+    top4AnneesContainer.innerHTML = "";
+    const maxFilms = top4.length > 0 ? top4[0][1] : 1;
+
+    top4.forEach(item => {
+        const annee = item[0];
+        const nbFilms = item[1];
+        const pourcentage = (nbFilms / maxFilms) * 100;
+        const divItem = document.createElement("div");
+
+        divItem.classList.add("result-block__item");
+        divItem.style.setProperty("--progress", pourcentage + "%");
+
+    
+        const spanTexte = document.createElement("span");
+        spanTexte.textContent = annee + " (" + nbFilms + " films)";
+
+        divItem.appendChild(spanTexte);
+        top4AnneesContainer.appendChild(divItem);
+    });
+}
+
+
+function afficherDiagrammeChronologique(filmsFiltres) {
+    const template = document.querySelector("#bar-template");
+    if (!diagramContainer || !template) return;
+
+    diagramContainer.innerHTML = "";
+    const comptage = {};
+    filmsFiltres.forEach(f => comptage[f.date] = (comptage[f.date] || 0) + 1);
+    
+    const maxFilms = Math.max(...Object.values(comptage), 1);
+
+    for (let annee = 2000; annee <= 2025; annee++) {
+        const nb = comptage[annee] || 0;
+        const clone = template.content.cloneNode(true);
+        clone.querySelector(".bar-year").textContent = annee;
+        clone.querySelector(".bar-fill").style.width = (nb / maxFilms * 100) + "%";
+        if (nb > 0) clone.querySelector(".bar-count").textContent = nb;
+        else clone.querySelector(".bar-count").remove();
+        
+        diagramContainer.appendChild(clone);
+    }
+}
+
+
+setTimeout(() => {
+    if (selectGenre && allFilms.length > 0) {
+        const genres = [...new Set(allFilms.flatMap(f => f.genre))].sort();
+        selectGenre.innerHTML = '<option value="" disabled selected>Choisir un genre dominant</option>';
+        genres.forEach(g => {
+            const opt = document.createElement("option");
+            opt.value = g; opt.textContent = g;
+            selectGenre.appendChild(opt);
+        });
+
+        selectGenre.addEventListener("change", (e) => {
+            const genreChoisi = e.target.value;
+            const filtres = allFilms.filter(f => f.genre.includes(genreChoisi));
+            const stats = {};
+            filtres.forEach(f => stats[f.date] = (stats[f.date] || 0) + 1);
+
+            afficherTop4Annees(stats);
+            afficherDiagrammeChronologique(filtres);
+        });
+    }
+}, 500);
