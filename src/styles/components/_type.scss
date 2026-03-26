@@ -474,3 +474,75 @@ h2 {
   font-size: 0.8em;
   font-weight: bold;
 }
+
+//style pour les annees
+.year {
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 800px;
+  }
+
+  &__item {
+    flex: 0 0 auto;
+    padding: 10px 15px;
+    min-width: 75px;
+    text-align: center;
+    color: $color-darkGrey;
+    background-color: $color-grey--transparent1;
+    border: 1px solid $color-grey--transparent2;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: $color-grey--transparent2;
+      color: $color-grey;
+    }
+
+    &--active {
+      background-color: $color-grey--transparent3;
+      color: $color-grey;
+      font-weight: bold;
+      border: 1px solid $color-grey;
+    }
+  }
+
+  &__all {
+    display: none;
+  }
+}
+
+.btn__valider--year {
+  background-color: $color-grey--transparent3; 
+  color: $color-grey;
+  border: 1px solid $color-grey--transparent2;
+  border-radius: 10px; 
+  padding: 12px 35px;
+  font-size: $font-p;
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+  margin-top: 10px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.btn__fleche {
+  display: none;
+}
