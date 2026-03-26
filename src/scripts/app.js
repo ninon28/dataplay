@@ -422,7 +422,7 @@ if (mainSelectGenre) {
 } */
 // fin de la partie de Dylan //
 
-/* Nouveau test de dylan on prie */
+/* Nouveau test de dylan on prie svp */
 const selectGenre = document.querySelector(".select__list");
 const diagramContainer = document.querySelector("#diagram-container");
 const top4AnneesContainer = document.querySelector('#section-genre .result-block__list--left');
