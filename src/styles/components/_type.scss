@@ -424,12 +424,12 @@ h2 {
 
 
 .year__item--active {
-  color:pink;
+  color: $color-pink;
 }
 
 
 
-.selector__actor--active , .selector__genre--active , .selector__year--active{
+.selector__item--active {
   font-weight: 700;
   color: $color-pink;
 }

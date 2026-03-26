@@ -1,41 +1,47 @@
-//  en gros : le morceau ici sert à attribuer la classe show pour que le block actor s'affiche quand on tape sur acteur dans la nav 
-//  suffit de copier coller ce morceau 2 fois et de mofifier les valeurs pour avoir ça avec genre et année aussi
-
-
 // --------------------- menu -----------------------------------
 
-// acteur
+// document.queryselector pour reprendre les classes des items
+// remove la classe active et ajouter la classe active sur le click listener
+
 const navActor = document.querySelector(".selector__actor");
-const sectionActor = document.querySelector(".actor");
-
-function actor() {
-    sectionActor.classList.toggle("block--show");
-    navActor.classList.toggle("selector__actor--active")
-}
-
-navActor.addEventListener("click", actor);
-
-// genre
 const navGenre = document.querySelector(".selector__genre");
-const sectionGenre = document.querySelector(".genre");
-
-function genre() {
-    sectionGenre.classList.toggle("block--show");
-    navGenre.classList.toggle("selector__genre--active")
-}
-
-navGenre.addEventListener("click", genre);
-
-// year
 const navYear = document.querySelector(".selector__year");
+
+const sectionActor = document.querySelector(".actor");
+const sectionGenre = document.querySelector(".genre");
 const sectionYear = document.querySelector(".year");
 
-function year() {
-    sectionYear.classList.toggle("block--show");
-    navYear.classList.toggle("selector__year--active")
+navActor.addEventListener("click", afficherActeur);
+navGenre.addEventListener("click", afficherGenre);
+navYear.addEventListener("click", afficherAnnee);
+
+function toutCacher() {
+    sectionActor.classList.remove("block--show");
+    sectionGenre.classList.remove("block--show");
+    sectionYear.classList.remove("block--show");
+
+    navActor.classList.remove("selector__item--active");
+    navGenre.classList.remove("selector__item--active");
+    navYear.classList.remove("selector__item--active");
 }
 
-navYear.addEventListener("click", year);
+function afficherActeur() {
+    toutCacher();
+    sectionActor.classList.add("block--show");
+    navActor.classList.add("selector__item--active");
+}
+
+function afficherGenre() {
+    toutCacher();
+    sectionGenre.classList.add("block--show");
+    navGenre.classList.add("selector__item--active");
+}
+
+function afficherAnnee() {
+    toutCacher();
+    sectionYear.classList.add("block--show");
+    navYear.classList.add("selector__item--active");
+}
 
 
 
